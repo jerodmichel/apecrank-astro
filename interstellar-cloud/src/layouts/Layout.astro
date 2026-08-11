@@ -133,121 +133,88 @@ const rssHref = getRelativeLocaleUrl(
 </script>
 
 <style>
-  /* Ensure images never overflow mobile screens */
+  /* Ensure images never overflow */
   img {
     max-width: 100% !important;
     height: auto !important;
   }
   
-  /* Prevent horizontal body blowout on small viewports */
+  /* Prevent horizontal body blowout */
   body {
     overflow-x: hidden;
     width: 100%;
   }
   
-  /* Force long text blocks or containers to wrap safely */
+  /* Force long text blocks to wrap safely */
   p, span, pre, code {
     max-width: 100%;
     word-break: break-word;
   }
 
-  /* MOBILE RESPONSIVE SCALING OVERRIDES */
-@media (max-width: 768px) {
-  article, main, .prose, .main-container {
-    padding-left: 1.25rem !important;
-    padding-right: 1.25rem !important;
-    box-sizing: border-box !important;
-  }
+  /* MOBILE: SHRINK THE DESKTOP LAYOUT + COLOR FIXES */
+  @media (max-width: 768px) {
+    /* Shrink the whole page to fit */
+    html {
+      overflow-x: hidden;
+    }
+    
+    body {
+      transform: scale(0.55);
+      transform-origin: top left;
+      width: 180%;
+      overflow-x: hidden;
+    }
 
-  h1 {
-    font-size: 1.5rem !important;
-    line-height: 1.2 !important;
-  }
-  
-  h2 {
-    font-size: 1.2rem !important;
-  }
+    /* --- COLOR FIXES BELOW --- */
+    
+    /* Force readable text colors on mobile */
+    body, p, span, li {
+      color: #1a1a1a !important;
+    }
 
-  body {
-    font-size: 0.95rem;
-  }
-  
-  body, p, span, li, a {
-    color: #1a1a1a !important;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    color: #000000 !important;
-  }
-  
-  pre, code, .bg-slate-900, .bg-zinc-900, .bg-gray-900 {
-    background-color: #f4f4f5 !important;
-    color: #1a1a1a !important;
-  }
+    /* Keep links visible */
+    a {
+      color: #006688 !important;
+    }
+    
+    /* Headings crisp */
+    h1, h2, h3, h4, h5, h6 {
+      color: #000000 !important;
+    }
+    
+    /* Lighten dark code blocks */
+    pre, code, .bg-slate-900, .bg-zinc-900, .bg-gray-900 {
+      background-color: #f4f4f5 !important;
+      color: #1a1a1a !important;
+    }
 
-  /* 1. NUKE THE GRID */
-  main#main-content > section#hero > div[style*="grid"] {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 2rem !important;
-    width: 100% !important;
-  }
+    /* Fix header background */
+    header {
+      background-color: #ffffff !important;
+    }
 
-  main#main-content > section#hero > div[style*="grid"] > * {
-    width: 100% !important;
-    max-width: 100% !important;
-  }
+    html.dark header {
+      background-color: #121212 !important;
+    }
 
-  /* 2. FIX HEADER */
-  header {
-    background-color: #ffffff !important;
-  }
+    /* Fix LaTeX equations */
+    mjx-container[display="true"] {
+      color: #1a1a1a !important;
+      opacity: 1 !important;
+    }
 
-  html.dark header {
-    background-color: #121212 !important;
-  }
+    mjx-container[display="true"] svg {
+      color: #1a1a1a !important;
+      fill: #1a1a1a !important;
+      stroke: #1a1a1a !important;
+      opacity: 1 !important;
+    }
 
-  header a.absolute {
-    position: static !important;
-    font-size: 0.9rem !important;
-    max-width: 50% !important;
-    white-space: normal !important;
-    overflow-wrap: break-word !important;
-    word-break: break-word !important;
-    line-height: 1.2 !important;
-    color: #1a1a1a !important;
-    padding: 0 !important;
-    margin: 0 !important;
+    mjx-container[display="true"] svg * {
+      fill: #1a1a1a !important;
+      stroke: #1a1a1a !important;
+    }
   }
-
-  html.dark header a.absolute {
-    color: #ffffff !important;
-  }
-
-  header button#menu-btn {
-    flex-shrink: 0 !important;
-    z-index: 10 !important;
-    position: relative !important;
-  }
-
-  /* 3. FIX LATEX */
-  mjx-container[display="true"] {
-    color: #1a1a1a !important;
-    opacity: 1 !important;
-  }
-
-  mjx-container[display="true"] svg {
-    color: #1a1a1a !important;
-    fill: #1a1a1a !important;
-    stroke: #1a1a1a !important;
-    opacity: 1 !important;
-  }
-
-  mjx-container[display="true"] svg * {
-    fill: #1a1a1a !important;
-    stroke: #1a1a1a !important;
-  }
-}
 </style>
 
   </head>
