@@ -190,37 +190,42 @@ const rssHref = getRelativeLocaleUrl(
     }
 
     /* 1. FORCE THE 3-COLUMN INDEX LAYOUT TO STACK VERTICALLY */
-    div[style*="grid-template-columns"] {
+    main div[style*="grid-template-columns"] {
       display: flex !important;
       flex-direction: column !important;
       gap: 1.5rem !important;
     }
 
-    /* 2. FIX TOP HEADER / TITLE OVERLAP & COLOR */
-    header, nav, #header-container {
-      background-color: #ffffff !important;
-      position: relative !important;
-      z-index: 50;
-      padding-right: 3rem !important; /* Clears space so title doesn't run into the menu button */
+    /* 2. FIX HEADER TITLE OVERLAP & TOP BACKGROUND CONTRAST */
+    header {
+      background-color: var(--background) !important;
     }
     
-    /* Ensure site title scales down and stays dark on mobile */
-    header h1, header a.text-lg, header .font-semibold {
+    header div.relative {
+      display: flex !important;
+      flex-direction: row !important;
+      align-items: center !important;
+      justify-content: space-between !important;
+    }
+
+    /* Unset absolute positioning on mobile so the title flows naturally next to the menu button */
+    header a.absolute {
+      position: static !important;
       font-size: 1.1rem !important;
-      color: #000000 !important;
-      max-width: 75% !important;
-      display: inline-block;
+      max-width: 65% !important;
       white-space: normal !important;
+      overflow-wrap: break-word !important;
     }
 
     /* 3. FIX LIGHT CENTERED LATEX EQUATIONS */
-    .katex-display, mjx-container[jax="CHTML"][display="true"] {
+    mjx-container[display="true"], .katex-display {
       color: #1a1a1a !important;
       opacity: 1 !important;
-      font-size: 1.05rem !important;
-      overflow-x: auto;
-      overflow-y: hidden;
-      padding: 0.5rem 0;
+      filter: none !important;
+    }
+    
+    mjx-container[display="true"] svg {
+      fill: #1a1a1a !important;
     }
   }
 </style>
