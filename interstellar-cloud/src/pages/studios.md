@@ -72,6 +72,16 @@ a:hover { color: #c084fc; text-decoration: underline; }
   .dark {
     --background: #ffffff !important;
   }
+  div[style*="gap: 60px"] {
+    flex-wrap: nowrap !important;
+    gap: 15px !important;
+    font-size: 0.75rem !important;
+  }
+
+  div[style*="gap: 60px"] a {
+    font-size: 0.75rem !important;
+    white-space: nowrap !important;
+  }
 }
 
 </style>
