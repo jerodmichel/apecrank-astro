@@ -1,0 +1,270 @@
+---
+import { getCollection } from "astro:content";
+import { getRelativeLocaleUrl } from "astro:i18n";
+import IconRss from "@/assets/icons/IconRss.svg";
+import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Socials from "@/components/Socials.astro";
+import Card from "@/components/Card.astro";
+import LinkButton from "@/components/LinkButton.astro";
+import { getSortedPosts } from "@/utils/getSortedPosts";
+import { useTranslations } from "@/i18n";
+import config from "@/config";
+
+const { socials, posts: postsConfig } = config;
+
+const locale = Astro.currentLocale ?? config.site.lang;
+const t = useTranslations(locale);
+
+const posts = await getCollection("posts");
+const sortedPosts = getSortedPosts(posts);
+const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
+const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
+const homePath = getRelativeLocaleUrl(locale, "");
+---
+
+<Layout>
+  <Header />
+  <main
+    id="main-content"
+    data-layout="index"
+    data-home-path={homePath}
+    class="app-layout"
+    style="background-color: #f1f5f9;"
+  >
+      <section id="hero" class="border-border border-b pt-8 pb-6">
+	  <!--Your new GIF banner-->
+	  <div class="separator" style="clear: both;">
+              <img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8RHzd1zkpI7C5C2EFMd03yRjio_RYiUjhyphenhyphenfk8az7L8UrU1Mp3f5socQO7oIxWEPNCJw_c5MzQz8WMDv7fKZ-v6MS1sEOHBPClYFxEA6lx525CDyvkjBtKuVFmf5vlgAgVrfApkBRGmlGYw6Ew-1JU9u7AzLIHJntYKToHMXnwB6jBM8H7_N8oGuVQE9s/s901/-pecran-10-1-2025.png" style="height: auto; max-width: 800px; width: 100%;" />
+	  </div>
+
+<!-- Navigation Strip -->
+<section id="project-links" class="border-y border-border py-3 mb-8">
+  <div class="flex justify-center items-center flex-wrap gap-x-8 gap-y-3 px-4 max-w-5xl mx-auto">
+    
+    <a href="/code" style="font-family: monospace; font-weight: 800; font-size: 0.9rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; transition: opacity 0.2s;" class="hover:opacity-70 whitespace-nowrap">
+      [CODE]
+    </a>
+
+    <a href="/notes-from-china" style="font-family: monospace; font-weight: 800; font-size: 0.9rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; transition: opacity 0.2s;" class="hover:opacity-70 whitespace-nowrap">
+      [NOTES FROM CHINA]
+    </a>
+
+    <a href="https://github.com/jerodmichel/rampart" style="font-family: monospace; font-weight: 800; font-size: 0.9rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; transition: opacity 0.2s;" class="hover:opacity-70 whitespace-nowrap">
+      [RAMPART]
+    </a>
+
+    <a href="https://theweirdcrap.com/alarmingly-strange-stories/the-witches-of-rascar-pablo-the-complete-novel/" style="font-family: monospace; font-weight: 800; font-size: 0.9rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; transition: opacity 0.2s;" class="hover:opacity-70 whitespace-nowrap">
+      [WITCHES OF RASCAR PABLO]
+    </a>
+
+  </div>
+</section>
+
+	  
+
+<div class="font-mono text-sm uppercase opacity-70 mb-8 border-b border-border pb-4">
+  <div style="max-width: 800px; margin: 0 auto; line-height: 1.6;">
+    
+    <!-- Top part: multi-line metadata -->
+    <p>
+      <strong>TERRESTRIAL ANALYSIS, CYCLE 47</strong><br />
+      REPORT NO.: TAU-047-23-B<br />
+      SUBJECT: HOMO SAPIENS (SOL-3 PRIMATE)<br />
+      TOPIC: VERTICAL GRADIENT FORMATION WITHIN THE POPULATION<br />
+    </p>
+
+    <!-- Flex row: STATUS OPEN (left) and [COLLABORATORS] (right) -->
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 4px;">
+      <span>STATUS: OPEN</span>
+      <a href="/collaborators" style="font-family: monospace; font-weight: 800; font-size: 1.2rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; display: inline-flex; align-items: center;">
+        [COLLABORATORS]
+      </a>
+    </div>
+
+  </div>
+</div>
+<div style="display: grid; grid-template-columns: 0.8fr 1.4fr 0.8fr; width: 100%; gap: 20px; margin-top: 40px; align-items: start;">
+  
+  <!-- Left Column -->
+  <div style="font-family: 'Georgia', serif; font-size: 0.85rem; opacity: 0.8; display: flex; flex-direction: column; min-width: 0;">
+    <p style="font-weight: bold; margin-bottom: 10px;">THE RADIAL AND THE CENTRALIZED</p>
+    <p style="flex-grow: 1;">We have observed two broad organizational patterns across this species. The radial pattern is decentralized and distributed, offering high resilience but low efficiency. The centralized pattern is concentrated and hierarchical, offering high efficiency but low resilience. The species exhibits a strong preference for centralized structures, despite their brittleness. This preference appears to be driven by the principle of least resistance—centralized structures are easier to maintain from the perspective of the advantaged.</p>
+    
+    <a href="/labs" style="margin-top: 0px; font-family: monospace; font-weight: 800; font-size: 2.3rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; display: flex; align-items: center; justify-content: center; height: 150px;">
+      [LABS]
+    </a>
+  </div>
+
+  <!-- Middle Column -->
+  <div style="display: flex; flex-direction: column; min-width: 0;">
+    <a href="https://link2.com" style="flex-grow: 1; display: flex; align-items: center;">
+      <img src="/yazi87.png" alt="stairways" style="width: 100%; height: auto; display: block; object-fit: contain;" />
+    </a>
+  </div>
+
+  <!-- Right Column -->
+  <div style="font-family: 'Georgia', serif; font-size: 1.0rem; opacity: 0.8; text-align: right; display: flex; flex-direction: column; min-width: 0;">
+    <p style="font-weight: bold; margin-bottom: 10px;">ⲧϩⲁⲇⲓⲥⲕⲟⲥ ⲛⲉⲙ ⲧⲕⲉⲛⲧⲟⲩⲣⲅⲓⲁ</p>
+    <p style="flex-grow: 1;">ⲟⲩⲡⲗⲁⲥⲙⲁ ⲛⲧⲉ ⲁⲥⲥⲉⲃⲃⲁⲧⲓⲥⲙⲟⲥ ⲛϩⲁϩ ⲛⲥⲟⲡ ⲛϩⲉⲛⲙⲉⲗⲟⲥ ⲉⲩⲥⲁjⲉ ⲉⲩⲥⲟⲡ ⲉⲩⲥⲟⲡ ⲉⲣⲟϥ ⲉⲧⲉⲛjⲱ ⲙⲙⲟⲥ ⲛⲧⲥⲟⲣⲡ ⲛⲧⲙⲉⲑⲙⲏⲓ ⲕⲁⲧⲁ ⲡⲉⲩⲟⲩⲟⲉⲓⲥ ⲥⲁⲣⲉ ⲟⲩⲙⲉⲗⲟⲥ ⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲧⲁϩⲟ ⲉⲣⲁⲧⲥ ⲛⲟⲩϩⲩⲡⲟⲧⲁⲅⲏ ⲉⲥⲕⲱⲧ ⲛⲥⲱⲥ ⲙⲙⲁⲩⲁⲧⲟⲩ ⲛⲉⲙ ⲟⲩⲥⲩⲛⲁⲅⲱⲅⲏ ⲉⲧⲟⲩⲕⲱⲧ ⲛⲥⲁ ⲟⲩϩⲱⲃ ⲉϥⲕⲱⲧ ⲛⲥⲱⲥ ⲉⲧⲃⲉ ⲡⲧⲱⲥ ⲛⲧⲉ ⲧⲙⲛⲧⲙⲁⲓⲧⲟ ⲉⲧⲥⲁjⲓ ⲙⲙⲟⲥ ⲟⲩⲛ ϩⲉⲛⲙⲉⲗⲟⲥ ⲛⲁⲥⲓ ⲛⲟⲩⲓ ⲛⲥⲟⲙⲧ ⲛⲥⲧⲩⲗⲗⲟⲥ ⲉⲩⲧⲱⲙ ⲛϩⲏⲧ ⲛϩⲏⲧⲥ ⲛⲧⲉ ⲧⲇⲓⲁⲕⲣⲓⲥⲓⲥ ⲛⲧⲟⲟⲧⲥ ⲉⲧⲕⲱⲧ ⲛⲧⲥⲟⲣⲡ ⲛⲥⲩⲙⲃⲟⲗⲏ ⲛⲛⲟⲩⲧⲱⲧ ⲛϩⲏⲧⲥ ⲟⲩⲇⲉ ⲛⲥⲉⲧⲧⲱⲛ.</p>
+    
+    <a href="/studios" style="margin-top: 35px; font-family: monospace; font-weight: 800; font-size: 2.3rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; display: flex; align-items: center; justify-content: center; height: 150px;">
+      [STUDIOS]
+    </a>
+  </div>
+
+</div>
+</section>
+
+<!-- Reading List Strip -->
+<section id="reading-list" class="pt-12 pb-8 border-b border-border">
+  <h2 class="text-2xl font-semibold tracking-wide mb-6" style="color: #000000;">
+    Reading List
+  </h2>
+  
+  <div class="flex justify-center items-center flex-wrap gap-x-8 gap-y-4 px-4 max-w-6xl mx-auto text-center">
+    
+    <a href="https://wileywiggins.com/bricolage/" style="font-family: monospace; font-weight: 800; font-size: 0.9rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; transition: opacity 0.2s;" class="hover:opacity-70 whitespace-nowrap">
+      [WILEY WIGGINS]
+    </a>
+
+    <a href="https://theweirdcrap.com" style="font-family: monospace; font-weight: 800; font-size: 0.9rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; transition: opacity 0.2s;" class="hover:opacity-70 whitespace-nowrap">
+      [THE WEIRD CRAP]
+    </a>
+
+    <a href="https://www.hplovecraft.com/writings/" style="font-family: monospace; font-weight: 800; font-size: 0.9rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; transition: opacity 0.2s;" class="hover:opacity-70 whitespace-nowrap">
+      [H.P. LOVECRAFT]
+    </a>
+
+    <a href="https://english.lem.pl/" style="font-family: monospace; font-weight: 800; font-size: 0.9rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; transition: opacity 0.2s;" class="hover:opacity-70 whitespace-nowrap">
+      [STANISLAW LEM]
+    </a>
+
+    <a href="https://www.pkdickbooks.com/" style="font-family: monospace; font-weight: 800; font-size: 0.9rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; transition: opacity 0.2s;" class="hover:opacity-70 whitespace-nowrap">
+      [PHILIP K DICK]
+    </a>
+
+    <a href="https://edictzero.com/edict-zero-fis-series/" style="font-family: monospace; font-weight: 800; font-size: 0.9rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; transition: opacity 0.2s;" class="hover:opacity-70 whitespace-nowrap">
+      [EDICT ZERO]
+    </a>
+
+    <a href="https://wolf359.fm/" style="font-family: monospace; font-weight: 800; font-size: 0.9rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; transition: opacity 0.2s;" class="hover:opacity-70 whitespace-nowrap">
+      [WOLF 359]
+    </a>
+
+    <a href="https://www.thepsychicgarden.org/post/art-zdzis%C5%82aw-beksi%C5%84ski" style="font-family: monospace; font-weight: 800; font-size: 0.9rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; transition: opacity 0.2s;" class="hover:opacity-70 whitespace-nowrap">
+      [PSYCHICGARDEN / BEKSINSKY]
+    </a>
+
+    <a href="https://lichess.org/study/topic/Famous%20Games/popular" style="font-family: monospace; font-weight: 800; font-size: 0.9rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; transition: opacity 0.2s;" class="hover:opacity-70 whitespace-nowrap">
+      [FAMOUS CHESS GAMES]
+    </a>
+
+    <a href="https://montalk.net/" style="font-family: monospace; font-weight: 800; font-size: 0.9rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; transition: opacity 0.2s;" class="hover:opacity-70 whitespace-nowrap">
+      [MONTALK]
+    </a>
+
+    <a href="http://phrack.org/" style="font-family: monospace; font-weight: 800; font-size: 0.9rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; transition: opacity 0.2s;" class="hover:opacity-70 whitespace-nowrap">
+      [PHRACK MAGAZINE]
+    </a>
+
+    <a href="https://www.jamesrmeyer.com/ffgit/geb" style="font-family: monospace; font-weight: 800; font-size: 0.9rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; transition: opacity 0.2s;" class="hover:opacity-70 whitespace-nowrap">
+      [JAMES R MEYER]
+    </a>
+
+    <a href="https://www.jamesrmeyer.com/ffgit/godels_theorem" style="font-family: monospace; font-weight: 800; font-size: 0.9rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; transition: opacity 0.2s;" class="hover:opacity-70 whitespace-nowrap">
+      [GÖDEL'S INCOMPLETENESS]
+    </a>
+
+    <a href="https://medium.com/swlh/a-complete-web-page-building-a-turing-machine-in-javascript-d6c32d3708c4" style="font-family: monospace; font-weight: 800; font-size: 0.9rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; transition: opacity 0.2s;" class="hover:opacity-70 whitespace-nowrap">
+      [TURING MACHINE IN JAVASCRIPT]
+    </a>
+
+    <a href="https://crypto.stanford.edu/~blynn/lambda/quine.html" style="font-family: monospace; font-weight: 800; font-size: 0.9rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; transition: opacity 0.2s;" class="hover:opacity-70 whitespace-nowrap">
+      [LAMBDA CALCULUS -- QUINES]
+    </a>
+
+    <a href="https://www.nyx.net/~gthompso/quine.htm" style="font-family: monospace; font-weight: 800; font-size: 0.9rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; transition: opacity 0.2s;" class="hover:opacity-70 whitespace-nowrap">
+      [QUINES PAGE (GARY THOMPSON II)]
+    </a>
+
+    <a href="https://akiramanga.com/" style="font-family: monospace; font-weight: 800; font-size: 0.9rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; transition: opacity 0.2s;" class="hover:opacity-70 whitespace-nowrap">
+      [AKIRA MANGA (ORIGINAL)]
+    </a>
+
+    <a href="https://archive.org/details/The_Wings_of_Honneamise_1995" style="font-family: monospace; font-weight: 800; font-size: 0.9rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; transition: opacity 0.2s;" class="hover:opacity-70 whitespace-nowrap">
+      [WINGS OF HONNEAMISE]
+    </a>
+
+    <a href="https://archive.org/details/aeonfluxmodelpack/mode/1up" style="font-family: monospace; font-weight: 800; font-size: 0.9rem; color: #006688; text-decoration: none; letter-spacing: 0.1em; transition: opacity 0.2s;" class="hover:opacity-70 whitespace-nowrap">
+      [AEON FLUX MODEL PACK (ORIGINAL)]
+    </a>
+
+  </div>
+</section>
+
+<!-- This is where your existing featured posts section begins -->
+
+
+    {
+      featuredPosts.length > 0 && (
+        <section
+          id="featured"
+          class:list={[
+            "pt-12 pb-6",
+            { "border-border border-b": recentPosts.length > 0 },
+          ]}
+        >
+          <h2 class="text-2xl font-semibold tracking-wide">
+            {t.home.featured}
+          </h2>
+          <ul>
+            {/* Add .slice(0, 4) right here to limit to 4 posts */}
+            {featuredPosts.slice(0, 4).map(data => (
+              <Card variant="h3" {...data} />
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    {
+      recentPosts.length > 0 && (
+        <section id="recent-posts" class="pt-12 pb-6">
+          <h2 class="text-2xl font-semibold tracking-wide">
+            {t.home.recentPosts}
+          </h2>
+          <ul>
+            {recentPosts.slice(0, postsConfig.perIndex).map(data => (
+              <Card variant="h3" {...data} />
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    <div class="my-8 text-center">
+      <LinkButton href={getRelativeLocaleUrl(locale, "posts")}>
+        {t.home.allPosts}
+        <IconArrowRight class="inline-block rtl:-rotate-180" />
+      </LinkButton>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<script>
+  document.addEventListener("astro:page-load", () => {
+    const indexLayout = (document.querySelector("#main-content") as HTMLElement)
+      ?.dataset;
+    const baseRoot = import.meta.env.BASE_URL.replace(/\/?$/, "/");
+    if (indexLayout?.layout) {
+      sessionStorage.setItem("backUrl", indexLayout.homePath ?? baseRoot);
+    }
+  });
+</script>
+
+
+

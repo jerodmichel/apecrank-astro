@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:blogger='http://schemas.google.com/blogger/2018'>
+  <id>tag:blogger.com,1999:blog-3190978430224114534</id>
+  <title>apecrank_beta</title>
+  <entry>
+    <id>tag:blogger.com,1999:blog-3190978430224114534.post-3981753251747055818</id>
+    <blogger:type>PAGE</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>Jerod Michel</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Home</title>
+    <content type='html'>&lt;style&gt;
+/* This is a stronger method to hide the old title */
+header, .header, .blog-title, .title { 
+    display: none !important; 
+}
+
+/* This prevents the new banner from overlapping content :cite[1] */
+#banner {
+    position: relative; /* Changed from absolute */
+    width: 100%;
+    text-align: center;
+}
+
+/* This adds space below your GIF banner so content starts after it */
+body {
+    padding-top: 0 !important; /* Removes any default body padding */
+}
+#main-content {
+    padding-top: 0; /* Adjust this value if you need more space after your GIF */
+}
+h3.post-title.entry-title {
+    display: none !important;
+}
+.post-body, .post-header, .header-inner, .content-inner, .main-inner {
+    padding-top: 0 !important;
+}
+
+.post-body, .post-header, .header-outer {
+    margin-top: 0 !important;
+}
+.post-body img {
+  box-shadow: none;
+  border: Opx;
+}
+&lt;/style&gt;
+
+&lt;!--Your new GIF banner--&gt;
+&lt;div class="separator" style="clear: both;"&gt;
+    &lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhL-hODk6d-NlH9WqeSwZ6SqfZ0iFDdsoVgmUuVySkPyXz6qv7rKhPUvvs17e_cOsWKRZ2RuhxGWMc76RTlh5RP9rTCBN7vbQQSyP-SFSkam8JKMt6USGGyHtWRjn21uhbzzWzJLkIrKmQ-hqCqR4kyCmxGRwuf6EP9VC-RmimOSxdhhw9L4K9p-NgU7Sk/s1024/ApecranK-9-28-2025.jpg" style="display: block; padding: 0px; text-align: center;"&gt;
+        &lt;img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhL-hODk6d-NlH9WqeSwZ6SqfZ0iFDdsoVgmUuVySkPyXz6qv7rKhPUvvs17e_cOsWKRZ2RuhxGWMc76RTlh5RP9rTCBN7vbQQSyP-SFSkam8JKMt6USGGyHtWRjn21uhbzzWzJLkIrKmQ-hqCqR4kyCmxGRwuf6EP9VC-RmimOSxdhhw9L4K9p-NgU7Sk/s1024/ApecranK-9-28-2025.jpg" style="height: auto; max-width: 800px; width: 100%;" /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class="separator" style="clear: both;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg74d5bnGHIM0BRITB9gy3dqguMZJ2L1LIQYRVSvcxmyYUwv5tLGa-cgVTpc3L5R7NbTTHOzS8Ahsy-uGPv_JN__ovLDje7ayq0y1TxEPiVzkDig8tATRpHMXehJGjEwgXulsxtzOpM9bJa_rKoz0jScH-D1yR4597SeAMM7vbwcoyKG1rdkGfWC3jcQeo/s736/the-tenebric-symplecticum-gif-2025-09-29.gif" style="display: block; padding: 1em 0px; text-align: center;"&gt;&lt;img alt="" border="0" data-original-height="56" data-original-width="736" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg74d5bnGHIM0BRITB9gy3dqguMZJ2L1LIQYRVSvcxmyYUwv5tLGa-cgVTpc3L5R7NbTTHOzS8Ahsy-uGPv_JN__ovLDje7ayq0y1TxEPiVzkDig8tATRpHMXehJGjEwgXulsxtzOpM9bJa_rKoz0jScH-D1yR4597SeAMM7vbwcoyKG1rdkGfWC3jcQeo/s600/the-tenebric-symplecticum-gif-2025-09-29.gif" width="600" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgg7yHaUiHSHdHtH9sIrinyIJy88NtmFkgAnSOrm5SdgxiHjdF-od2UyIqzgC6IaEbeIQZruv7wUTergbe_FBqmoWJlj5xNodQydoYaPaW_jZ9XPmD28jg8e5IBrcP5OvqMABO1ulm8n-sukeOxTjjiG8TqCgUt5qE6CtBJoWXgdp_YDvmkxC-E7GIIlR4/s1064/Lucid_Origin_A_semitransparent_glowing_human_head_in_profile_s_089.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="1064" data-original-width="962" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgg7yHaUiHSHdHtH9sIrinyIJy88NtmFkgAnSOrm5SdgxiHjdF-od2UyIqzgC6IaEbeIQZruv7wUTergbe_FBqmoWJlj5xNodQydoYaPaW_jZ9XPmD28jg8e5IBrcP5OvqMABO1ulm8n-sukeOxTjjiG8TqCgUt5qE6CtBJoWXgdp_YDvmkxC-E7GIIlR4/w361-h400/Lucid_Origin_A_semitransparent_glowing_human_head_in_profile_s_089.gif" width="361" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;br /&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;/p&gt;&lt;div dir="ltr" id="Section53" style="column-count: 2;"&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;
+	&lt;br /&gt;
+
+	&lt;/p&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9071nx4ge-r8h2u259AiRCiNBkm3hGZ-i7rzTJKj-b0NG5BCG-fjQJGZL4v937W0ACrZCVjWA2x3p89bcNbVa413FXI4glantujl9dWCVaJull_L3GuWDRCP8z7uUT70Xu11Z8kwA0QSVOFHMD6X_0GywpQFZmnUFqK0pl7z63GAh6NzYghS3tSMtmxI/s1761/Lucid_Origin_An_impossible_infinite_labyrinth_in_the_style_of__2(1)69.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="1761" data-original-width="1011" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9071nx4ge-r8h2u259AiRCiNBkm3hGZ-i7rzTJKj-b0NG5BCG-fjQJGZL4v937W0ACrZCVjWA2x3p89bcNbVa413FXI4glantujl9dWCVaJull_L3GuWDRCP8z7uUT70Xu11Z8kwA0QSVOFHMD6X_0GywpQFZmnUFqK0pl7z63GAh6NzYghS3tSMtmxI/s320/Lucid_Origin_An_impossible_infinite_labyrinth_in_the_style_of__2(1)69.gif" width="184" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;
+	&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJFpS82qUFmHMyilu8ws_vjwKu4LSeYqDU9IC3CkYkXjN-bEz7S_Za1-_oxNYF17uS89yiMgnXzKciAIrv58FEU1i0gZv6bsyT4ac3zI2mu0iBQlCI57ihW_S2cjuc3HMyfjwH-heafXAsPUj_WFEFRl0sOFF1U8BsBcEeo8K-7O-hCHTnv3QSI2OVT-A/s692/Lucid_Origin_A_haunting_intimate_portrait_of_a_skinny_elderly__168.gif" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="583" data-original-width="692" height="270" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJFpS82qUFmHMyilu8ws_vjwKu4LSeYqDU9IC3CkYkXjN-bEz7S_Za1-_oxNYF17uS89yiMgnXzKciAIrv58FEU1i0gZv6bsyT4ac3zI2mu0iBQlCI57ihW_S2cjuc3HMyfjwH-heafXAsPUj_WFEFRl0sOFF1U8BsBcEeo8K-7O-hCHTnv3QSI2OVT-A/s320/Lucid_Origin_A_haunting_intimate_portrait_of_a_skinny_elderly__168.gif" width="320" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;br /&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;
+	&lt;br /&gt;
+
+	&lt;/p&gt;&lt;/div&gt;&lt;div dir="ltr" id="Section53" style="column-count: 2;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;div dir="ltr" id="Section53" style="column-count: 2;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;div dir="ltr" id="Section53" style="column-count: 2;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;div dir="ltr" id="Section53" style="column-count: 2;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;div dir="ltr" id="Section53" style="column-count: 2;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;div dir="ltr" id="Section53" style="column-count: 2;"&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;
+	&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&lt;a href="http://staff.ustc.edu.cn/~drzhangx/group-chn/dcc/pdfs/Incidence%20structures%20related%20to%20difference%20sets%20and%20their%20applications.pdf" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="355" data-original-width="427" height="266" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8hCblDKxBeLb1Mc7A25kpKHT8z5UthGGQ4cOn9aUa0ObwtwZZUN-_V_8bHAB7z1OPPSAuiGtBLC_FEoP-a8Ef9K6JPmbu0Jq4N5p3yl4EJ3cpvwhS_jM05Jq9r56m1FIX2QVVZ6DTzuim4yYvNgfF1nRCuJaryw1kYGIm33b6dnf0IFi7XEFVo4_c-xg/s320/pic3.jpg" width="320" /&gt;&lt;/a&gt;&amp;nbsp; &lt;br /&gt;&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&amp;nbsp;&amp;nbsp; &lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;
+	&lt;/p&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://issuu.com/contextolibre" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="290" data-original-width="614" height="151" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgqSjUqw5XDwDPWhw3Lu5UiwVCpMo5Xz4poupRYK_64sO4I8rAt2rYLg1C9z04hK5Viw7FMn3MhKZMuiJ63d98fMpvFzgMB-3wnW-Xc8G_QRm5_NiOkHNu48G6xGJs4WWsOgh-hpJG1kqzMkPlYXPX-Avv0eWVeFKjcrUd8O8yzYnGmegS4RY5FSQBVGE/s320/fbefc8d13506ce34d2ae3.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;/div&gt;
+
+	&lt;p&gt;&lt;/p&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;p class="western" style="line-height: 100%; margin-bottom: 0in;"&gt;&lt;br /&gt;
+
+&lt;/p&gt;
+&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;
+
+
+	
+	
+	
+	
+
+&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;
+
+
+
+	
+	
+	
+	
+
+&lt;/p&gt;
+
+&lt;div dir="ltr" id="Section53" style="column-count: 2;"&gt;
+	&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/p&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="http://apecrank.blogspot.com/p/library.html" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="197" data-original-width="557" height="113" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5BFv7PTwVWZNoROgKb5dRYKLirx8SLSQBjKARLdOyDZOk-qvx3LQVbpMJXA0PeNynTPsWPYWGXYCvEpP0RaT1k4vgMH4U5eKQmvuzHhxAcacMuepncC9c0vKwi4pp5b09LD7r85Ir0V4ttDtCQW-uoIbSZCGBxeA1VhHQwijBv2P4VtRW6OHaLvGtF5Q/s320/pic1.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+	&lt;p&gt;&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;
+	&lt;br /&gt;
+
+	&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;
+	&lt;br /&gt;
+
+	&lt;/p&gt;
+	&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;
+	&lt;/p&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="http://apecrank.blogspot.com/p/mathematics-combinatorics-publications.html" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="335" data-original-width="437" height="245" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpxlkQkUuQKiNlBdHNq4olMmIGoffUO5z-Nvl5HxPdG7Rv8Qo_3e4HBIUiLBwcwHOU99yRwO-tPkFgenKIgCo2p1_bOBPhORUuSmrak1Ya9m9Qczl_LsyW354P4FqQZ99VW3YTyOID8M-LRLRXKimuZAeCNJptf2QXkm5hQ7jjt3KwNuQaH16NUrOTPOk/s320/pic2.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;
+
+	&lt;p&gt;&lt;/p&gt;&amp;nbsp;&lt;/div&gt;&lt;div dir="ltr" id="Section53" style="column-count: 2;"&gt;&amp;nbsp;&amp;nbsp; &lt;br /&gt;&lt;/div&gt;&lt;p&gt;&lt;style type="text/css"&gt;p { margin-bottom: 0.1in; direction: ltr; color: #000000; line-height: 120%; orphans: 2; widows: 2; background: transparent }p.western { font-family: "Liberation Serif", "Times New Roman", serif; font-size: 12pt; so-language: en-US }p.cjk { font-family: "Noto Sans CJK SC Regular"; font-size: 12pt; so-language: zh-CN }p.ctl { font-family: "FreeSans"; font-size: 12pt; so-language: hi-IN }a:link { color: #000080; so-language: zxx; text-decoration: underline &lt;/style&gt;&lt;/p&gt;
+&lt;div dir="ltr" id="Section53" style="column-count: 2;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;a href="http://apecrank.blogspot.com/p/blog-page_15.html" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="253" data-original-width="632" height="128" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQviC5YyOO471DnZQmQmKpD8-BrSoKyOpwejBgFOqencU-tw6_iyPkvoLfV3Bn1zmnJgBosDQLjYdTbNzYpBPWqJSrUmNyfxeaHiAAtDKBtr0aKqhRoZd5eiXrctsXGpAPhqrsxvk1Q-poIjt0Vachgz8mGhb7cVA_ZaXO2uYciFR4BLlHY1XhiOVy5xM/s320/pic6.jpg" width="320" /&gt;&lt;/a&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&lt;a href="https://www.amazon.com/dp/B0D2YW531Y" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="180" data-original-width="637" height="90" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5n251N_DRF0QtWRQKyJf7B3_SyeUSqcNo2S9p1myNobGKwqh259fVR98PZe5TXnjCqfYSBzDfQeJApcypIex7d5np_t7Cx5oak24CIb-Zfg1GwTaQBBko6JtU9UFYyHUEv8WDS5kem6aO576LmffNwkKXq2aB5byNNEUkfYTSik_lHgYLyeaOcWxlMoQ/s320/picTT.jpg" width="320" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&amp;nbsp;&lt;/p&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://apecrank.blogspot.com/2011/03/notes-from-china.html" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="770" data-original-width="1089" height="226" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLHZIhDD-JUh0ZHMFk944CAzH1hFWzeUQkwvT5rS2TvfeHwaCiibRcFrTomaVVuHbIXlm-OSiUYHRYtnpcALKPTFi_bAAljDPxUxthWs82ju10shvpQJD8TislZwbCzytIEYFD807t_yv0WQlCdAU_QJPGpnTkf_uW9Pd10OfrmjHiZkiRWcAZT-aTMPw/s320/pic8.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;br /&gt;&lt;/div&gt;&lt;p&gt;
+
+
+	
+	
+	
+	
+
+&lt;/p&gt;
+&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;
+&lt;br /&gt;
+
+&lt;/p&gt;
+&lt;div dir="ltr" id="Section53" style="column-count: 2;"&gt;&lt;br /&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;
+	&lt;br /&gt;
+
+	&lt;/p&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://scholar.google.com/citations?user=Fky9K5EAAAAJ&amp;amp;hl=en&amp;amp;oi=ao" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="1035" data-original-width="836" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzj7Sf8dN9gFvhyphenhyphen4AHWgc1UpP4dN64hUreBXkVww8baYEn6iZ1AeZsW5yRR-fq6ql40ka7ic5uauDLoWJFmfrdeQI0Qifl6ZdvjGgJ8O-L2cHbLT1cw3YLm0BpFM7dnC9ZEpJQPGf2_eMEBdyFSIH1HSnoik0NYu6JaGZaWd7LHRyukL0JdRWnkLAHT6Y/s320/bric_nbtup3FKs01qlzc4lo1_1280.jpg" width="258" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;
+	&lt;/p&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://www.linkedin.com/in/jerod-michel-26399933" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="481" data-original-width="751" height="205" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg9pSj1hPsvWipKt0MPGE2BZmHvQV8AYlxs2rRJDJAz1RIvhgJumOKsK0Q7SV8GkGwHmNeOTCd44fp6k8nK66_XJDbfR3KzPhw3v20Wp0Fa92zJOIXFq-ZFrdrcEq4tmxTPxzQTkSsPFMaB6aLg0e360llBpOpky5nM_jLRCBTif2-SkRSbUZN57u6v7c/s320/bric7153.jpg" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div dir="ltr" id="Section53" style="column-count: 2;"&gt;&lt;/div&gt;&lt;div dir="ltr" id="Section53" style="column-count: 2;"&gt;&lt;/div&gt;&lt;div dir="ltr" id="Section53" style="column-count: 2;"&gt;&lt;br /&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;
+	&lt;br /&gt;
+
+	&lt;/p&gt;&lt;/div&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in;"&gt;&lt;br /&gt;
+
+&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in;"&gt;&lt;br /&gt;
+
+&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in;"&gt;&lt;br /&gt;
+
+&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in;"&gt;&lt;br /&gt;
+
+&lt;/p&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://osf.io/a3cfz" target="_blank"&gt;&lt;img border="0" data-original-height="981" data-original-width="680" height="359" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8ocw1o4FVWMGND8IDm-5Az3AIUOtYpA1kT3gv9DTIbBdwGq3Da-kXCE4tmNSP5b80F6zmRlNtpePnEqkCRAshOyDbFxbgrqHSfgYM4HVeF5UZagTIsJhkRvAhyphenhyphenENz7eIMmrSgIn8GbLFzhxZx-g3kgYVgFmaWG9bQBW9CxMcJgBVp69AUR-mPvltmTSU/w249-h359/rampart_offical_rules.png" width="249" /&gt;&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;a href="https://github.com/jerodmichel/rampart" target="_blank"&gt;&lt;img border="0" data-original-height="919" data-original-width="628" height="351" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTqDOrpDzvbbezGDTLco8d_3SgA6K20tzDj4OahbnJzoNlOvGNLEw1w7hjywdtwO9_-gkjWQ0Vi0yNM-FarBZ21rrEt6jWoe4eI1ryzmaEpnLmPp5P4ZIYooBSc_iXDVuD7kHcOlO9ULMkTygw2bJToL-b-TuJQUyWe3F9xLvx1D3CkojAXMVnCQs-B-g/w240-h351/rampart_release.png" width="240" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;iframe allowfullscreen="" class="BLOG_video_class" height="371" src="https://www.youtube.com/embed/TWDltWxu2pY" width="526" youtube-src-id="TWDltWxu2pY"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://on.soundcloud.com/oGLms1G6XBxtjq4c6" style="margin-left: 1em; margin-right: 1em;" target="_blank"&gt;&lt;img border="0" data-original-height="989" data-original-width="627" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL3Ony8FotmvCCqQkqCMSi2TNwzUyCx0SBzIKyJRZ_9svAkSLM_XCDMhxqvDe_vXef8gj4r9RKM_G7uKzw5TGjyxcp8R6DNvwdjXgyZOlscQJvnWsNr2JQwjdp7NnAjLyRYkC3N8RZslHxruvnbVLINYR4O-WL75SzBoAA3kmGCnBPHp5Ofmzyc4HUrdY/w254-h400/1877_Charles_Mengin_-_Sappho.jpg" width="254" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&lt;b&gt;&lt;span style="color: #333333; font-size: 3em;"&gt;Works of Kristopher Lawrence:&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&lt;b&gt;&lt;span style="color: #333333; font-size: x-large;"&gt;(Published on &lt;a href="http://theweirdcrap.com"&gt;theweirdcrap.com&lt;/a&gt;)&lt;/span&gt;&lt;span style="color: #333333; font-size: 3em;"&gt; &lt;/span&gt;&lt;/b&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;
+
+
+	
+	
+	
+	
+
+&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;
+&lt;span style="color: #333333; font-size: x-small;"&gt;Illustrations by Jerod Michel&lt;/span&gt;&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;
+&lt;br /&gt;
+
+&lt;/p&gt;
+&lt;div dir="ltr" id="Section53" style="column-count: 2;"&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: left;"&gt;&lt;a href="https://theweirdcrap.com/alarmingly-strange-stories/witches-of-rascar-pablo-part-i/" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="3648" data-original-width="3800" height="243" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijGhWisLDncBYVJ6U5EzyPTHXqChA9F4Zfu0t6eypqX0KgEDLXswEXQutQUdNxm42jJcitKlcw18hFklIrPTGec-y6KPgSt7L2soZLxn4rWDf5xXnCRXw-nAOe6yj02A43fjidOsMCNzgNXQV3lsizCqhpAW0FJGkElYcaswfiPa6DENo1WYptbLzxo8g/w253-h243/heart_boy_3_TT.jpg" width="253" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;div class="separator" style="clear: both; text-align: left;"&gt;&lt;a href="https://theweirdcrap.com/alarmingly-strange-stories/witches-of-rascar-pablo-part-ii/" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="4416" data-original-width="3848" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeyTmxrB__mMoGAdgr7dtUITk5P1QCyt9DWrPtPVQyLnKAoz4NCvFwUp9wKU02XxBqXsgfT3A7AUFVd9mCdqcKAdHrxqpt2LEe2Eh7XFuAWIZAbmyp7paAZre3DmgUjpTraIDEynOwoADgEugUnmzSCzmF8sJFQQaJldNYWZzJGAtDrR9fxf4EOPSpmQw/s320/southern_oracle6_TT.jpg" width="279" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;
+	&lt;br /&gt;
+
+	&lt;/p&gt;
+	
+	&lt;/div&gt;&lt;p&gt;&lt;style type="text/css"&gt;p { margin-bottom: 0.1in; direction: ltr; color: #000000; line-height: 120%; orphans: 2; widows: 2; background: transparent }p.western { font-family: "Liberation Serif", "Times New Roman", serif; font-size: 12pt; so-language: en-US }p.cjk { font-family: "Noto Sans CJK SC Regular"; font-size: 12pt; so-language: zh-CN }p.ctl { font-family: "FreeSans"; font-size: 12pt; so-language: hi-IN }a:link { color: #000080; so-language: zxx; text-decoration: underline }&lt;/style&gt;
+
+
+	
+	
+	
+	
+
+&lt;/p&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;
+&lt;br /&gt;
+
+&lt;/p&gt;
+&lt;div dir="ltr" id="Section53" style="column-count: 2;"&gt;&lt;a href="https://theweirdcrap.com/alarmingly-strange-stories/witches-of-rascar-pablo-part-iii/" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="5296" data-original-width="3976" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5v_6X_6UiWnRvSg4R6S8XHasQzxpGOA7cLZbQF8xud6hSek_1aCmv1f_ASWfCH6ANvh__fVG0wCC_w2hv0aeqjqpcCWyt4Tncf41Afxiyw1ivSajkhYOMS4vA-UKALtwtdUN4D_x_Ep5nRdB_Olyv_YZPhT5D3AivWXWWIzF6LbTibzqrPHwpTRaVcFs/s320/quetzl_TT.jpg" width="240" /&gt;&lt;/a&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;
+	&lt;br /&gt;
+
+	&lt;/p&gt;&lt;br /&gt;
+	&lt;p class="western" style="line-height: 100%; margin-bottom: 0in;"&gt;&lt;span style="color: black;"&gt;&lt;span style="text-decoration: none;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://www.amazon.com/Witches-Rascar-Pablo-Kristopher-Lawrence-ebook/dp/B0CWTJPVSL/ref=sr_1_1?crid=3A7RELNFU209I&amp;amp;dib=eyJ2IjoiMSJ9.CsWQhVoICqjVTRIg4wADRQ.wEuiCxVDMDsG4Ji8KM8S5d6nskwp3ZTbgkSL8h8ODpQ&amp;amp;dib_tag=se&amp;amp;keywords=witches+of+rascar+pablo&amp;amp;qid=1714326912&amp;amp;sprefix=witches+of+rascar+pablo%2Caps%2C220&amp;amp;sr=8-1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="523" data-original-width="638" height="262" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMspofnQnyJESxM9gMqH32lhmsIZsKBuZYTRk0Cfd2uMwt7uylgDa9B0Jv5980cVbcKDdf5BEWiZxwkXOhP7YYVjkBSLJjj-Dl8YloX41KK1E4mBxPJ_MSj3VLfqGaNgiNDfQm0JuBQ-6gUVM9ILRG0nFwhVNNMYepGL39iU2REzdO6XAWbTBNfwFjjfo/s320/wasp_silo.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;/p&gt;
+	&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;
+	&lt;br /&gt;
+
+	&lt;/p&gt;&lt;br /&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;
+	&lt;br /&gt;
+
+	&lt;/p&gt;&lt;br /&gt;&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;
+	&lt;br /&gt;
+
+	&lt;/p&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;p class="western" style="line-height: 100%; margin-bottom: 0in;"&gt;&lt;br /&gt;
+
+&lt;/p&gt;
+&lt;p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"&gt;&lt;span style="color: #cccccc; font-size: x-small;"&gt;Disclaimer: some images above (including those from the 1983 film &lt;i&gt;Fire and Ice &lt;/i&gt;and cover art from Phillip K. Dick novels) were borrowed from Wiley Wiggin's&lt;/span&gt;&lt;span style="font-size: x-small;"&gt; &lt;a href="https://wileywiggins.com/images5.html"&gt;bricolage&lt;/a&gt;&lt;span style="color: #cccccc;"&gt;.&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;style type="text/css"&gt;p { margin-bottom: 0.1in; direction: ltr; color: #000000; line-height: 120%; orphans: 2; widows: 2; background: transparent }p.western { font-family: "Liberation Serif", "Times New Roman", serif; font-size: 12pt; so-language: en-US }p.cjk { font-family: "Noto Sans CJK SC Regular"; font-size: 12pt; so-language: zh-CN }p.ctl { font-family: "FreeSans"; font-size: 12pt; so-language: hi-IN }a:link { color: #000080; so-language: zxx; text-decoration: underline }&lt;/style&gt; &lt;/p&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;br /&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2025-10-01T02:52:27.114Z</blogger:created>
+    <published>2025-10-01T02:52:27.114Z</published>
+    <updated>2025-10-01T02:52:42.805Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/p/home.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  </entry>
+</feed>

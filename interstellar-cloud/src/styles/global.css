@@ -1,0 +1,92 @@
+@import "tailwindcss";
+@import "./theme.css";
+@import "./typography.css";
+@import "rehype-callouts/theme/obsidian";
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@layer base {
+  * {
+    @apply border-border outline-accent/75;
+    scrollbar-width: auto;
+    scrollbar-color: var(--color-muted) transparent;
+  }
+  a,
+  button {
+    @apply outline-accent outline-offset-1 focus-visible:no-underline focus-visible:outline-2 focus-visible:outline-dashed;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+@utility max-w-app {
+  @apply max-w-3xl;
+}
+
+@utility app-layout {
+  @apply max-w-app mx-auto w-full px-4;
+}
+
+@utility active-nav {
+  @apply underline decoration-wavy decoration-2 underline-offset-8;
+}
+
+:target {
+  scroll-margin-block: 1rem;
+}
+
+/* Target the copy button specifically */
+pre .copy-btn, 
+.copy-btn, 
+button[aria-label="Copy to clipboard"] {
+  display: none !important;
+}
+
+/* Also hide any button that appears inside a 'prose' or post area */
+article button {
+  display: none !important;
+}
+
+/* Fix Tailwind overriding MathJax SVG display properties */
+mjx-container svg {
+  display: inline !important;
+}
+
+mjx-container[display="true"] {
+  display: block !important;
+  margin: 1.5em auto !important;
+}
+
+mjx-container[display="true"] svg {
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+/* Initialize the counter on the main article container */
+/* AstroPaper uses the 'prose' class for markdown content */
+.prose {
+  counter-reset: h2-counter;
+}
+
+/* Reset the sub-section counter every time a new H2 begins */
+.prose h2 {
+  counter-reset: h3-counter;
+}
+
+/* Inject the H2 number */
+.prose h2::before {
+  counter-increment: h2-counter;
+  content: counter(h2-counter) ". ";
+  color: #64748b; /* Optional: styles the number in a subtle slate gray */
+  margin-right: 0.25rem;
+}
+
+/* Inject the H3 number (e.g., 1.1, 1.2) */
+.prose h3::before {
+  counter-increment: h3-counter;
+  content: counter(h2-counter) "." counter(h3-counter) ". ";
+  color: #64748b;
+  margin-right: 0.25rem;
+}

@@ -1,0 +1,116 @@
+---
+import { getCollection } from "astro:content";
+import { getRelativeLocaleUrl } from "astro:i18n";
+import IconRss from "@/assets/icons/IconRss.svg";
+import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Socials from "@/components/Socials.astro";
+import Card from "@/components/Card.astro";
+import LinkButton from "@/components/LinkButton.astro";
+import { getSortedPosts } from "@/utils/getSortedPosts";
+import { useTranslations } from "@/i18n";
+import config from "@/config";
+
+const { socials, posts: postsConfig } = config;
+
+const locale = Astro.currentLocale ?? config.site.lang;
+const t = useTranslations(locale);
+
+const posts = await getCollection("posts");
+const sortedPosts = getSortedPosts(posts);
+const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
+const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
+const homePath = getRelativeLocaleUrl(locale, "");
+---
+
+<Layout>
+  <Header />
+  <main
+    id="main-content"
+    data-layout="index"
+    data-home-path={homePath}
+    class="app-layout"
+  >
+    <section id="hero" class="border-border border-b pt-8 pb-6">
+  <!--Your new GIF banner-->
+<div class="separator" style="clear: both;">
+        <img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8RHzd1zkpI7C5C2EFMd03yRjio_RYiUjhyphenhyphenfk8az7L8UrU1Mp3f5socQO7oIxWEPNCJw_c5MzQz8WMDv7fKZ-v6MS1sEOHBPClYFxEA6lx525CDyvkjBtKuVFmf5vlgAgVrfApkBRGmlGYw6Ew-1JU9u7AzLIHJntYKToHMXnwB6jBM8H7_N8oGuVQE9s/s901/-pecran-10-1-2025.png" style="height: auto; max-width: 800px; width: 100%;" />
+</div>
+
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg74d5bnGHIM0BRITB9gy3dqguMZJ2L1LIQYRVSvcxmyYUwv5tLGa-cgVTpc3L5R7NbTTHOzS8Ahsy-uGPv_JN__ovLDje7ayq0y1TxEPiVzkDig8tATRpHMXehJGjEwgXulsxtzOpM9bJa_rKoz0jScH-D1yR4597SeAMM7vbwcoyKG1rdkGfWC3jcQeo/s736/the-tenebric-symplecticum-gif-2025-09-29.gif" style="display: block; padding: 1em 0px; text-align: center;"><img border="0" data-original-height="56" data-original-width="736" height="49" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg74d5bnGHIM0BRITB9gy3dqguMZJ2L1LIQYRVSvcxmyYUwv5tLGa-cgVTpc3L5R7NbTTHOzS8Ahsy-uGPv_JN__ovLDje7ayq0y1TxEPiVzkDig8tATRpHMXehJGjEwgXulsxtzOpM9bJa_rKoz0jScH-D1yR4597SeAMM7vbwcoyKG1rdkGfWC3jcQeo/w640-h49/the-tenebric-symplecticum-gif-2025-09-29.gif" width="640" /></a></div><div class="separator" style="clear: both; text-align: center;">
+
+
+
+</div><div class="separator" style="clear: both; text-align: center;"><div dir="ltr" id="Section53" style="column-count: 2;"><div class="separator" style="clear: both;"><div class="separator" style="clear: both;"></div><div class="separator" style="clear: both;"></div><div class="separator" style="clear: both;"></div><div class="separator" style="clear: both; text-align: right;"><div class="separator" style="clear: both; text-align: center;"><div class="separator" style="clear: both; text-align: center;"><div class="separator" style="clear: both; text-align: center;"><a href="https://www.apecrank.net/p/apecrank-labs.html" style="margin-left: 1em; margin-right: 1em;">
+
+<img border="0" data-original-height="1868" data-original-width="1044" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwBBIXOn1CwBKc3rSB-0331RwVV3Fj9McCMdg65_xXn_zSyo22lLsPObr7jbgF5V7TCtvNrPGNEyciepqhgc9bLWDFCwzIbeyeUZuFV_DLTYyCGjBhBzLMJ9SMipYfPvGaFgXsVBRaYFjM4Sv7G2_MYU8A2lYRto_-ZsfP71IIKFExEhXQ0KNXzXJlXD8/w224-h400/yaziOOO.png" width="224" /></a></div><br /><br /></div><br /><br /></div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div><div class="separator" style="clear: both; text-align: right;">&nbsp; &nbsp; &nbsp;&nbsp;</div><div class="separator" style="clear: both; text-align: right;">&nbsp; &nbsp; &nbsp; &nbsp;<div class="separator" style="clear: both; text-align: center;"><div class="separator" style="clear: both; text-align: center;"><div class="separator" style="clear: both; text-align: center;"><div class="separator" style="clear: both; text-align: center;"><a href="https://www.apecrank.net/p/apecrank-studios.html" style="margin-left: 1em; margin-right: 1em;">
+
+<img border="0" data-original-height="580" data-original-width="733" height="253" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcnfzaBDz8zlBhSgjX_pZaYNoxbiKGVzh1gzpqiPQ293gCpOhj4WXSeQ969nBGuxrdU8hFisgfy61jczUd91sx5Ikdg2ZsqSa0f9VGaYiZfNyWHmJsWs2DCL0IiCb13yuzcZ8UpMsG3MI_L0OZ5orV2P_HNDGzah19WcB7T7FepQ4Ai7qgzqWLU-fglr8/s320/Lucid_Origin_A_haunting_intimate_portrait_of_a_skinny_elderly__1OOO.png" width="320" /></a></div><br /><br /></div><br /></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><br /></div></div></div><div class="separator" style="clear: both; text-align: right;"><br /></div></div></div></div><div class="separator" style="clear: both; text-align: center;"><div class="separator" style="clear: both; text-align: center;"><div class="separator" style="clear: both; text-align: center;"><div class="separator" style="clear: both; text-align: center;"><a href="https://www.apecrank.net/p/blog-page.html" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em; text-align: right;"></a><div class="separator" style="clear: both; text-align: center;"><a href="https://www.apecrank.net/p/blog-page.html" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em; text-align: right;"></a><div class="separator" style="clear: both; text-align: center;"><div class="separator" style="clear: both; text-align: center;"><div class="separator" style="clear: both; text-align: center;"><div class="separator" style="clear: both; text-align: center;"><a href="https://www.apecrank.net/p/blog-page.html" style="clear: right; float: right; margin-bottom: 1em; margin-left: 1em;"><img border="0" data-original-height="502" data-original-width="682" height="295" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhO8NplTHV2MeKIu14ngl0iP8HPTyDkoOjh9nz4N-pVoGrgRCEWv36t8ODTCZ6rCMhIoiMNtk2azdBO1FEtzBxmKeSPLqfFU32rNZi3Q5uhsz9j-bDU5Zr7lLWCGKCjKBXJ_NmuA7WTWdZbXInGxW7F1esFPuGpHdZT5luGikqJ3OXEZ3DJTrSttKSoLJo/w400-h295/Lucid_Origin_oil_painted_A_closeup_of_a_melting_psychedelic_ar_3zzz.png" width="400" /></a></div><br /><a href="https://www.apecrank.net/p/blog-page.html" style="clear: right; float: right; margin-bottom: 1em; margin-left: 1em;"><br /></a></div><br /><a href="https://www.apecrank.net/p/blog-page.html" style="clear: right; float: right; margin-bottom: 1em; margin-left: 1em;"><br /></a></div></div></div></div></div></div></div>
+  <div class="hacker-hero-container">
+     <img src="/your-lightning.gif" alt="Lightning" class="lightning" />
+     <img src="/your-electric-banner.png" alt="Banner" class="banner" />
+     <h1>Åpecranꓘ: The Tenebric Symplecticum</h1>
+  </div>
+</section>
+
+    {
+      featuredPosts.length > 0 && (
+        <section
+          id="featured"
+          class:list={[
+            "pt-12 pb-6",
+            { "border-border border-b": recentPosts.length > 0 },
+          ]}
+        >
+          <h2 class="text-2xl font-semibold tracking-wide">
+            {t.home.featured}
+          </h2>
+          <ul>
+            {featuredPosts.map(data => (
+              <Card variant="h3" {...data} />
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    {
+      recentPosts.length > 0 && (
+        <section id="recent-posts" class="pt-12 pb-6">
+          <h2 class="text-2xl font-semibold tracking-wide">
+            {t.home.recentPosts}
+          </h2>
+          <ul>
+            {recentPosts.slice(0, postsConfig.perIndex).map(data => (
+              <Card variant="h3" {...data} />
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    <div class="my-8 text-center">
+      <LinkButton href={getRelativeLocaleUrl(locale, "posts")}>
+        {t.home.allPosts}
+        <IconArrowRight class="inline-block rtl:-rotate-180" />
+      </LinkButton>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<script>
+  document.addEventListener("astro:page-load", () => {
+    const indexLayout = (document.querySelector("#main-content") as HTMLElement)
+      ?.dataset;
+    const baseRoot = import.meta.env.BASE_URL.replace(/\/?$/, "/");
+    if (indexLayout?.layout) {
+      sessionStorage.setItem("backUrl", indexLayout.homePath ?? baseRoot);
+    }
+  });
+</script>
+
+
+
