@@ -122,8 +122,8 @@ opportune time and place to act</span></span><span><span lang="en-US">
 	<span lang="zh-CN">听</span>:
 	t</span><span style="color: #333333; font-family: inherit; font-size: large;">īng  
 	</span></p>
-	<p class="western" style="line-height: 100%; margin-bottom: 0in;"><span style="color: #0047AB !important; font-family: inherit; font-size: large;">to surround:<span style="text-decoration: none;">&nbsp;<span lang="zh-CN">围</span>:
-	w</span><span style="text-decoration: none;">éi</span></span></p>
+	<p class="western" style="line-height: 100%; margin-bottom: 0in;"><span style="color: #0047AB !important; font-family: inherit; font-size: large;">to surround:<span style="text-decoration: none;">&nbsp;<span style="color: #0047AB !important;" lang="zh-CN">围:
+	wéi</span></span></p>
 	<p class="western" style="line-height: 100%; margin-bottom: 0in;"><span style="color: #333333; font-family: inherit; font-size: large;">seems:
 	<span lang="zh-CN">似乎</span>:
 	sì hū   
@@ -136,8 +136,8 @@ opportune time and place to act</span></span><span><span lang="en-US">
 	<span lang="zh-CN">当</span>...<span lang="zh-CN">的时候</span>:
 	dāng...de shíhòu   
 	</span></p>
-	<p class="western" style="line-height: 100%; margin-bottom: 0in;"><span style="color: #0047AB !important; font-family: inherit; font-size: large;">to save/to rescue: <span style="text-decoration: none;"><span lang="zh-CN">救</span>:
-	j</span><span style="text-decoration: none;">iù</span></span></p>
+	<p class="western" style="line-height: 100%; margin-bottom: 0in;"><span style="color: #0047AB !important; font-family: inherit; font-size: large;">to save/to rescue: <span style="text-decoration: none;"><span style="color: #0047AB !important;" lang="zh-CN">救:
+	jiù</span></span></p>
 	<p class="western" style="line-height: 100%; margin-bottom: 0in;"><span style="color: #333333; font-family: inherit; font-size: large;">only:
 	<span lang="zh-CN">只</span>:
 	zhǐ   
@@ -182,10 +182,10 @@ opportune time and place to act</span></span><span><span lang="en-US">
 	<span lang="zh-CN">应该</span>:
 	yīnggāi 
 	</span></p>
-	<p class="western" style="line-height: 100%; margin-bottom: 0in;"><span style="color: #0047AB !important; font-family: inherit; font-size: large;">Sun <span style="text-decoration: none;">(e.g. Sun Tzu): <span lang="zh-CN">孙</span>:
-	s</span><span style="text-decoration: none;">ūn</span></span></p>
-	<p class="western" style="line-height: 100%; margin-bottom: 0in;"><span style="color: #0047AB !important; font-family: inherit; font-size: large;">Zhao <span style="text-decoration: none;">(e.g. State of Zhao): <span lang="zh-CN">赵</span>:
-	z</span><span style="text-decoration: none;">hào</span></span></p>
+	<p class="western" style="line-height: 100%; margin-bottom: 0in;"><span style="color: #0047AB !important; font-family: inherit; font-size: large;">Sun <span style="color: #0047AB !important;">(e.g. Sun Tzu): 孙:
+	sūn</span></span></p>
+	<p class="western" style="line-height: 100%; margin-bottom: 0in;"><span style="color: #0047AB !important; font-family: inherit; font-size: large;">Zhao (e.g. State of Zhao): <span style="color: #0047AB !important;" lang="zh-CN">赵:
+	zhào</span></span></p>
 	<p class="western" style="line-height: 100%; margin-bottom: 0in;"><span style="color: #333333; font-family: inherit; font-size: large;">to
 	need: <span lang="zh-CN">需要</span>:
 	xūyào   

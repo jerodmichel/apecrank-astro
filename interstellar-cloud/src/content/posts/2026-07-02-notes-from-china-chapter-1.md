@@ -142,10 +142,10 @@ force of Wind overcomes the obstacle presented by Water [1], [28].</span></p>
 <span style="color: #333333;"><br /></span>
 </span>
 <div dir="ltr" id="Section12" style="column-count: 2;"><p class="western" style="line-height: 100%; margin-bottom: 0in;"><span style="font-size: large;"><span style="color: #0047AB !important;">sky/heaven<span style="text-decoration: none;">:
-	<span style="font-family: Noto Sans CJK SC Regular;"><span lang="zh-CN">天</span></span>:
-	t</span><span style="text-decoration: none;">iān</span></span></span></p>
-	<p class="western" style="line-height: 100%; margin-bottom: 0in;"><span style="font-size: large;"><span style="color: #0047AB ;">Tang <span style="text-decoration: none;">e.g. (Tang Dynasty): <span style="font-family: Noto Sans CJK SC Regular;"><span lang="zh-CN">唐</span></span>:
-	t</span><span style="text-decoration: none;">áng</span></span></span></p>
+	<span style="font-family: Noto Sans CJK SC Regular;"><span style="color: #0047AB !important;" lang="zh-CN">天:
+	tiān</span></span></span></p>
+	<p class="western" style="line-height: 100%; margin-bottom: 0in;"><span style="font-size: large;"><span style="color: #0047AB !important;">Tang e.g. (Tang Dynasty): <span style="font-family: Noto Sans CJK SC Regular;"><span style="color: #0047AB !important;" lang="zh-CN">唐:
+	táng</span></span></span></p>
 	<p class="western" style="line-height: 100%; margin-bottom: 0in;"><span style="font-size: large;"><span style="color: #333333; text-decoration: none;">never/always:
 	<span style="font-family: Noto Sans CJK SC Regular;"><span lang="zh-CN">从不</span></span>/<span style="font-family: Noto Sans CJK SC Regular;"><span lang="zh-CN">总是</span></span>:
 	c</span><span style="color: #333333;">óng bù/zǒng shì</span></span></p>
@@ -169,9 +169,9 @@ force of Wind overcomes the obstacle presented by Water [1], [28].</span></p>
 	</span></span></span></span><span style="color: #333333; text-decoration: none;">:
 	</span><span style="color: #333333; text-decoration: none;">(</span><span style="color: #333333; text-decoration: none;">bù</span><span style="color: #333333; text-decoration: none;">)</span><span style="color: #333333; text-decoration: none;">
 	zhòngyào</span></span></p>
-	<p class="western" style="line-height: 100%; margin-bottom: 0in;"><span style="font-size: large;"><span style="color: #0047AB ;">ocean/sea<span style="text-decoration: none;">:
-	<span style="font-family: Noto Sans CJK SC Regular;"><span lang="zh-CN">海</span></span>:
-	h</span><span style="text-decoration: none;">ǎi</span></span><span style="color: #333333;"><span style="text-decoration: none;">
+	<p class="western" style="line-height: 100%; margin-bottom: 0in;"><span style="font-size: large;"><span style="color: #0047AB !important;">ocean/sea:
+	<span style="font-family: Noto Sans CJK SC Regular;"><span style="color: #0047AB !important;" lang="zh-CN">海:
+	hǎi</span></span><span style="color: #333333;"><span style="text-decoration: none;">
 	</span></span></span>
 	</p>
 	<p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"><span style="font-size: large;"><span style="color: #333333;">
