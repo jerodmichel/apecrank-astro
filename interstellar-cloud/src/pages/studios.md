@@ -103,7 +103,7 @@ a:hover { color: #c084fc; text-decoration: underline; }
   </div><br>
 
   <div class="flex-start" style="margin-left: 40px;">
-    <iframe width="100%" style="max-width: 526px;" height="371" src="https://www.youtube.com/embed/TWDltWxu2pY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" style="max-width: 526px;" height="371" src="https://www.youtube.com/embed/TWDltWxu2pY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 <br><br><br>
   <!-- Kristopher Lawrence Section -->

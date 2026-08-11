@@ -23,6 +23,7 @@ import rehypeMathjax from 'rehype-mathjax/svg';
 
 export default defineConfig({
   site: config.site.url,
+  output: "static",
   integrations: [
     mdx(),
     sitemap({
@@ -30,6 +31,9 @@ export default defineConfig({
         config.features?.showArchives !== false || !page.endsWith("/archives/"),
     }),
   ],
+  vite: {
+    plugins: [tailwindcss()],
+  },
   i18n: {
     locales: ["en"],
     defaultLocale: "en",
@@ -38,23 +42,23 @@ export default defineConfig({
     },
   },
   markdown: {
-    syntaxHighlight: false, // <-- Disables Astro's default Shiki/MDX code parsing
+    syntaxHighlight: false,
     processor: unified({
       remarkPlugins: [
         remarkToc,
         [remarkCollapse, { test: "Table of contents" }],
-        remarkMath, // <-- Math processor added safely here
+        remarkMath,
       ],
       rehypePlugins: [
         rehypeCallouts,
-        [rehypeMathjax, { // <-- MathJax with custom macros
+        [rehypeMathjax, {
           tex: {
             macros: {
               nim: "\\operatorname{nim}",
               mex: "\\operatorname{mex}"
             }
           }
-        }], 
+        }],
       ],
     }),
     shikiConfig: {
@@ -68,9 +72,6 @@ export default defineConfig({
         transformerNotationDiff({ matchAlgorithm: "v3" }),
       ],
     },
-  },
-  vite: {
-    plugins: [tailwindcss()],
   },
   fonts: [
     {
