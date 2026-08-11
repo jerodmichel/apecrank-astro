@@ -157,6 +157,12 @@ const rssHref = getRelativeLocaleUrl(
 
   /* MOBILE: SHRINK THE DESKTOP LAYOUT + COLOR FIXES */
   @media (max-width: 480px) {
+    .mobile-spacer {
+      display: block !important;
+      min-height: 120px;
+      width: 100%;
+      background-color: red !important;
+    }
     html {
       overflow-x: hidden;
     }
@@ -216,11 +222,6 @@ const rssHref = getRelativeLocaleUrl(
       stroke: #1a1a1a !important;
       opacity: 1 !important;
       filter: none !important;
-    }
-
-    /* Activate mobile spacer to align [LABS] and [STUDIOS] */
-    .mobile-spacer {
-      display: block !important;
     }
     :root,
     .dark {
