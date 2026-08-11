@@ -184,29 +184,34 @@ const rssHref = getRelativeLocaleUrl(
     a {
       color: #006688 !important;
     }
-    
+
     h1, h2, h3, h4, h5, h6 {
       color: #000000 !important;
     }
-    
+
     pre, code, .bg-slate-900, .bg-zinc-900, .bg-gray-900 {
       background-color: #f4f4f5 !important;
       color: #1a1a1a !important;
     }
 
-    /* Header background */
-    header,
-    header div,
-    header .bg-background,
-    header div[class*="bg-background"] {
-      background-color: #ffffff !important;
+    /* LaTeX - match body text color */
+    mjx-container,
+    mjx-container[display="true"],
+    mjx-container mjx-math,
+    mjx-container svg,
+    mjx-container svg *,
+    mjx-container path,
+    mjx-container g {
+      color: #1a1a1a !important;
+      fill: #1a1a1a !important;
+      stroke: #1a1a1a !important;
+      opacity: 1 !important;
     }
 
-    html.dark header,
-    html.dark header div,
-    html.dark header .bg-background,
-    html.dark header div[class*="bg-background"] {
-      background-color: #121212 !important;
+    /* Header background */
+    :root,
+    .dark {
+      --background: #ffffff !important;
     }
 
     /* LaTeX - nuclear option */
