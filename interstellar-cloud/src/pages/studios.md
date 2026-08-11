@@ -44,10 +44,34 @@ a:hover { color: #c084fc; text-decoration: underline; }
     margin: 2rem 0; 
 }
 
-/* On mobile screens, stack the images */
+/* Force desktop layout on mobile by scaling */
 @media (max-width: 600px) {
-    .grid-2-col { grid-template-columns: 1fr; justify-items: center; }
-    .flex-start { justify-content: center; }
+    .page-container {
+    transform: scale(0.9);
+    transform-origin: top left;
+    width: 238%;
+    overflow-x: hidden;
+  }
+  
+  /* Keep the grid in 2 columns, don't stack */
+  .grid-2-col {
+    grid-template-columns: 1fr 1fr !important;
+  }
+  
+  /* Prevent flex items from wrapping */
+  .flex-start {
+    flex-wrap: nowrap !important;
+  }
+  
+  /* Fix colors */
+  body {
+    background-color: #f1f5f9 !important;
+  }
+  
+  :root,
+  .dark {
+    --background: #ffffff !important;
+  }
 }
 
 </style>
