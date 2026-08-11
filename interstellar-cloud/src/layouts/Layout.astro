@@ -155,6 +155,11 @@ const rssHref = getRelativeLocaleUrl(
     display: none;
   }
 
+  /* TEST - outside any media query */
+  header > div.bg-background {
+    background-color: yellow !important;
+  }
+
   /* MOBILE: SHRINK THE DESKTOP LAYOUT + COLOR FIXES */
   @media (max-width: 480px) {
     html {
@@ -222,10 +227,6 @@ const rssHref = getRelativeLocaleUrl(
     .mobile-spacer {
       display: block !important;
     }
-  }
-  /* MOBILE: SHRINK THE DESKTOP LAYOUT + COLOR FIXES */
-  @media (max-width: 480px) {
-    /* ... rest of your rules ... */
   }
 </style>
 
