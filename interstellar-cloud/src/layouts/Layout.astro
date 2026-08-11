@@ -152,82 +152,116 @@ const rssHref = getRelativeLocaleUrl(
   }
 
   /* MOBILE RESPONSIVE SCALING OVERRIDES */
-  @media (max-width: 768px) {
-    /* Target your main central column/article wrapper to add safe mobile padding */
-    article, main, .prose, .main-container {
-      padding-left: 1.25rem !important;
-      padding-right: 1.25rem !important;
-      box-sizing: border-box !important;
-    }
-
-    /* Smoothly scale down large headings on mobile */
-    h1 {
-      font-size: 1.5rem !important;
-      line-height: 1.2 !important;
-    }
-    
-    h2 {
-      font-size: 1.2rem !important;
-    }
-
-    body {
-      font-size: 0.95rem;
-    }
-    
-    /* Force readable text colors on mobile */
-    body, p, span, li, a {
-      color: #1a1a1a !important;
-    }
-    
-    h1, h2, h3, h4, h5, h6 {
-      color: #000000 !important;
-    }
-    
-    /* Lighten dark code blocks */
-    pre, code, .bg-slate-900, .bg-zinc-900, .bg-gray-900 {
-      background-color: #f4f4f5 !important;
-      color: #1a1a1a !important;
-    }
-
-    /* 1. FORCE THE 3-COLUMN INDEX LAYOUT TO STACK VERTICALLY */
-    main div[style*="grid-template-columns"] {
-      display: flex !important;
-      flex-direction: column !important;
-      gap: 1.5rem !important;
-    }
-
-    /* 2. FIX HEADER TITLE OVERLAP & TOP BACKGROUND CONTRAST */
-    header {
-      background-color: var(--background) !important;
-    }
-    
-    header div.relative {
-      display: flex !important;
-      flex-direction: row !important;
-      align-items: center !important;
-      justify-content: space-between !important;
-    }
-
-    /* Unset absolute positioning on mobile so the title flows naturally next to the menu button */
-    header a.absolute {
-      position: static !important;
-      font-size: 1.1rem !important;
-      max-width: 65% !important;
-      white-space: normal !important;
-      overflow-wrap: break-word !important;
-    }
-
-    /* 3. FIX LIGHT CENTERED LATEX EQUATIONS */
-    mjx-container[display="true"], .katex-display {
-      color: #1a1a1a !important;
-      opacity: 1 !important;
-      filter: none !important;
-    }
-    
-    mjx-container[display="true"] svg {
-      fill: #1a1a1a !important;
-    }
+@media (max-width: 768px) {
+  /* Target your main central column/article wrapper to add safe mobile padding */
+  article, main, .prose, .main-container {
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+    box-sizing: border-box !important;
   }
+
+  /* Smoothly scale down large headings on mobile */
+  h1 {
+    font-size: 1.5rem !important;
+    line-height: 1.2 !important;
+  }
+  
+  h2 {
+    font-size: 1.2rem !important;
+  }
+
+  body {
+    font-size: 0.95rem;
+  }
+  
+  /* Force readable text colors on mobile */
+  body, p, span, li, a {
+    color: #1a1a1a !important;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #000000 !important;
+  }
+  
+  /* Lighten dark code blocks */
+  pre, code, .bg-slate-900, .bg-zinc-900, .bg-gray-900 {
+    background-color: #f4f4f5 !important;
+    color: #1a1a1a !important;
+  }
+
+  /* 1. FORCE THE 3-COLUMN GRID TO STACK VERTICALLY */
+  /* Target the exact div with grid-template-columns containing 0.8fr 1.4fr 0.8fr */
+  div[style*="grid-template-columns"] {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2rem !important;
+  }
+  
+  /* Make the middle column (with the image) order first on mobile */
+  div[style*="grid-template-columns"] > div:nth-child(2) {
+    order: -1 !important;
+  }
+  
+  /* Reset text alignment on right column for mobile readability */
+  div[style*="grid-template-columns"] > div:nth-child(3) {
+    text-align: left !important;
+  }
+
+  /* 2. FIX HEADER TITLE OVERLAP & TOP BACKGROUND CONTRAST */
+  header {
+    background-color: #ffffff !important;
+  }
+
+  html.dark header {
+    background-color: #121212 !important;
+  }
+
+  /* Target the title link - "Apecrank: The Tenebric Symplecticum" */
+  header a[href="/"] {
+    position: static !important;
+    font-size: 0.95rem !important;
+    max-width: 55% !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+    word-break: break-word !important;
+    line-height: 1.2 !important;
+    color: #1a1a1a !important;
+    text-decoration: none !important;
+  }
+
+  html.dark header a[href="/"] {
+    color: #ffffff !important;
+  }
+
+  /* Give the hamburger menu button breathing room */
+  header button {
+    flex-shrink: 0 !important;
+    margin-left: 0.5rem !important;
+    z-index: 10 !important;
+  }
+
+  /* 3. FIX LIGHT CENTERED LATEX EQUATIONS */
+  mjx-container[display="true"],
+  .katex-display,
+  .math.display,
+  .display-math {
+    color: #1a1a1a !important;
+    opacity: 1 !important;
+    filter: none !important;
+  }
+
+  /* Target MathJax SVG fills specifically */
+  mjx-container svg,
+  mjx-container[display="true"] svg {
+    fill: #1a1a1a !important;
+    stroke: #1a1a1a !important;
+  }
+
+  /* Force all mjx containers to full opacity */
+  mjx-container {
+    opacity: 1 !important;
+  }
+}
 </style>
 
   </head>
