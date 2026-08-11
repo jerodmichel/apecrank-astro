@@ -155,11 +155,6 @@ const rssHref = getRelativeLocaleUrl(
     display: none;
   }
 
-  /* TEST - outside any media query */
-  header > div.bg-background {
-    background-color: yellow !important;
-  }
-
   /* MOBILE: SHRINK THE DESKTOP LAYOUT + COLOR FIXES */
   @media (max-width: 480px) {
     html {
@@ -226,6 +221,10 @@ const rssHref = getRelativeLocaleUrl(
     /* Activate mobile spacer to align [LABS] and [STUDIOS] */
     .mobile-spacer {
       display: block !important;
+    }
+    :root,
+    .dark {
+      --background: #ffffff !important;
     }
   }
 </style>
