@@ -220,6 +220,11 @@ const rssHref = getRelativeLocaleUrl(
       flex-direction: column !important;
       justify-content: space-between !important;
     }
+    /* Push [LABS] and [STUDIOS] to bottom of their columns so they align */
+    div[style*="grid-template-columns"] > div:first-child,
+    div[style*="grid-template-columns"] > div:last-child {
+      justify-content: space-between !important;
+    }
   }
 </style>
 
