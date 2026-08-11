@@ -183,6 +183,18 @@ const rssHref = getRelativeLocaleUrl(
     h1, h2, h3, h4, h5, h6 {
       color: #000000 !important;
     }
+    /* Lighten dark backgrounds on mobile so dark text remains readable */
+    pre, code, .bg-slate-900, .bg-zinc-900, .bg-gray-900, [class*="bg-"] {
+      background-color: #f4f4f5 !important; /* Soft light gray mobile background */
+      color: #1a1a1a !important;            /* Ensure text inside them stays dark */
+    }
+
+    /* Fix the 3-column part on the index page: force it to stack vertically */
+    .grid, .grid-cols-3, [class*="grid-cols-"] {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 1rem !important;
+    }
   }
 </style>
 
