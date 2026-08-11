@@ -80,18 +80,63 @@ description: "An intercepted extrasolar transmission containing a terrestrial an
     height: auto;
   }
 
-  /* Responsive fallback for smaller screens */
-  @media (max-width: 768px) {
-    .two-column-grid {
-      grid-template-columns: 1fr;
-    }
-    .mono-header {
-      flex-direction: column;
-    }
-    .coptic-col {
-      text-align: left;
-    }
+@media (max-width: 768px) {
+  .mono-header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.5rem !important;
+    padding: 0.5rem !important;
   }
+
+  .mono-header > div:first-child {
+    font-size: 0.9rem !important;
+    font-family: monospace !important;
+    line-height: 1.2 !important;
+  }
+
+  .mono-header > div:last-child {
+    flex-direction: row !important;
+    justify-content: center !important;
+    gap: 1rem !important;
+  }
+
+  .mono-header img {
+    max-width: 50px !important;
+    height: auto !important;
+  }
+
+  .two-column-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 1rem !important;
+  }
+  
+  .english-col h2 {
+    font-size: 0.7rem !important;
+  }
+  
+  .english-col p {
+    font-size: 0.6rem !important;
+    line-height: 1.3 !important;
+  }
+  
+  .coptic-col {
+    font-size: 0.55rem !important;
+    line-height: 1.3 !important;
+  }
+  
+  .mono-header {
+    font-size: 0.5rem !important;
+    padding: 0.5rem !important;
+  }
+  
+  .transmission-container {
+    padding: 1rem !important;
+  }
+
+  .mono-header {
+    flex-direction: column !important;
+  }
+}
 
   img {
   border: none !important;
