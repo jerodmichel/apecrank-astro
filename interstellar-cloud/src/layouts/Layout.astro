@@ -145,10 +145,44 @@ const rssHref = getRelativeLocaleUrl(
     width: 100%;
   }
   
-  /* Force long text blocks or containers to wrap safely within phone screens */
+  /* Force long text blocks or containers to wrap safely */
   p, span, pre, code {
     max-width: 100%;
     word-break: break-word;
+  }
+
+  /* MOBILE RESPONSIVE SCALING OVERRIDES */
+  @media (max-width: 768px) {
+    /* Target your main central column/article wrapper to add safe mobile padding */
+    article, main, .prose, .main-container {
+      padding-left: 1.25rem !important;
+      padding-right: 1.25rem !important;
+      box-sizing: border-box !important;
+    }
+
+    /* Smoothly scale down large headings on mobile so they don't break the layout */
+    h1 {
+      font-size: 1.6rem !important;
+      line-height: 1.2 !important;
+    }
+    
+    h2 {
+      font-size: 1.3rem !important;
+    }
+
+    /* Keep your preferred color/contrast scheme intact, but ensure body text scales nicely */
+    body {
+      font-size: 0.95rem;
+    }
+    /* Force paragraphs, spans, and general text to a dark, readable grey/black on mobile */
+    body, p, span, li, a {
+      color: #1a1a1a !important;
+    }
+    
+    /* Ensure headings are pitch black on mobile */
+    h1, h2, h3, h4, h5, h6 {
+      color: #000000 !important;
+    }
   }
 </style>
 
