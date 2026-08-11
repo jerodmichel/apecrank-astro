@@ -165,7 +165,6 @@ const rssHref = getRelativeLocaleUrl(
     }
 
     /* --- COLOR FIXES --- */
-    
     body, p, span, li {
       color: #1a1a1a !important;
     }
@@ -213,17 +212,9 @@ const rssHref = getRelativeLocaleUrl(
       filter: none !important;
     }
 
-    /* Align [LABS] and [STUDIOS] at same height */
-    div[style*="grid-template-columns"] > div:first-child,
-    div[style*="grid-template-columns"] > div:last-child {
-      display: flex !important;
-      flex-direction: column !important;
-      justify-content: space-between !important;
-    }
-    /* Push [LABS] and [STUDIOS] to bottom of their columns so they align */
-    div[style*="grid-template-columns"] > div:first-child,
-    div[style*="grid-template-columns"] > div:last-child {
-      justify-content: space-between !important;
+    /* Activate mobile spacer to align [LABS] and [STUDIOS] */
+    .mobile-spacer {
+      display: block !important;
     }
   }
 </style>
