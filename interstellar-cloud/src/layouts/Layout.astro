@@ -160,42 +160,67 @@ const rssHref = getRelativeLocaleUrl(
       box-sizing: border-box !important;
     }
 
-    /* Smoothly scale down large headings on mobile so they don't break the layout */
+    /* Smoothly scale down large headings on mobile */
     h1 {
-      font-size: 1.6rem !important;
+      font-size: 1.5rem !important;
       line-height: 1.2 !important;
     }
     
     h2 {
-      font-size: 1.3rem !important;
+      font-size: 1.2rem !important;
     }
 
-    /* Keep your preferred color/contrast scheme intact, but ensure body text scales nicely */
     body {
       font-size: 0.95rem;
     }
     
-    /* Force paragraphs, spans, and general text to a dark, readable grey/black on mobile */
+    /* Force readable text colors on mobile */
     body, p, span, li, a {
       color: #1a1a1a !important;
     }
     
-    /* Ensure headings are pitch black on mobile */
     h1, h2, h3, h4, h5, h6 {
       color: #000000 !important;
     }
     
-    /* Lighten explicitly dark backgrounds (pre, code, and dark utility blocks) without breaking the header */
+    /* Lighten dark code blocks */
     pre, code, .bg-slate-900, .bg-zinc-900, .bg-gray-900 {
       background-color: #f4f4f5 !important;
       color: #1a1a1a !important;
     }
 
-    /* Target the inline grid structure on index.astro to force it to stack vertically */
-    main [style*="grid-template-columns"] {
+    /* 1. FORCE THE 3-COLUMN INDEX LAYOUT TO STACK VERTICALLY */
+    div[style*="grid-template-columns"] {
       display: flex !important;
       flex-direction: column !important;
-      gap: 2rem !important;
+      gap: 1.5rem !important;
+    }
+
+    /* 2. FIX TOP HEADER / TITLE OVERLAP & COLOR */
+    header, nav, #header-container {
+      background-color: #ffffff !important;
+      position: relative !important;
+      z-index: 50;
+      padding-right: 3rem !important; /* Clears space so title doesn't run into the menu button */
+    }
+    
+    /* Ensure site title scales down and stays dark on mobile */
+    header h1, header a.text-lg, header .font-semibold {
+      font-size: 1.1rem !important;
+      color: #000000 !important;
+      max-width: 75% !important;
+      display: inline-block;
+      white-space: normal !important;
+    }
+
+    /* 3. FIX LIGHT CENTERED LATEX EQUATIONS */
+    .katex-display, mjx-container[jax="CHTML"][display="true"] {
+      color: #1a1a1a !important;
+      opacity: 1 !important;
+      font-size: 1.05rem !important;
+      overflow-x: auto;
+      overflow-y: hidden;
+      padding: 0.5rem 0;
     }
   }
 </style>
