@@ -156,7 +156,7 @@ const rssHref = getRelativeLocaleUrl(
   }
 
   /* MOBILE: SHRINK THE DESKTOP LAYOUT + COLOR FIXES */
-  @media (max-width: 768px) {
+  @media (max-width: 480px) {
     html {
       overflow-x: hidden;
     }
@@ -164,9 +164,9 @@ const rssHref = getRelativeLocaleUrl(
       padding-top: 180px !important;
     }
     body {
-      transform: scale(0.55);
+      transform: scale(0.48);
       transform-origin: top left;
-      width: 180%;
+      width: 208%;
       overflow-x: hidden;
     }
 
@@ -221,6 +221,9 @@ const rssHref = getRelativeLocaleUrl(
     /* Activate mobile spacer to align [LABS] and [STUDIOS] */
     .mobile-spacer {
       display: block !important;
+    }
+    body {
+      background-color: red !important;
     }
   }
 </style>
