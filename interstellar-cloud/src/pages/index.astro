@@ -258,6 +258,13 @@ const homePath = getRelativeLocaleUrl(locale, "");
     div[style*="grid-template-columns"] {
       align-items: stretch !important;
     }
+    div[style*="grid-template-columns"] > div:nth-child(2) {
+      align-self: start !important;
+    }
+
+    div[style*="grid-template-columns"] > div:nth-child(2) a {
+      align-items: flex-start !important;
+    }
   }
 </style>
 </Layout>
