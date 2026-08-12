@@ -324,10 +324,12 @@ shì</span></span></p>
 
 
 <style>
+
+<style>
   @media (max-width: 480px) {
     div[id^="Section"] {
       width: 110% !important;
-      transform: scale(1.0) !important;
+      transform: scale(0.85) !important;
       transform-origin: top left !important;
     }
   }
