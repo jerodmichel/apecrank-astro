@@ -4,86 +4,75 @@ title: "Collaborators"
 ---
 
 <style>
-/* Reset and Header Hiding */
-header, .header, .blog-title, .title { display: none !important; }
-body { padding-top: 0 !important; }
-#main-content { padding-top: 0; }
-
-/* Link Styling */
-a:link, a:visited { color: #60a5fa; text-decoration: none; }
-a:hover { color: #c084fc; text-decoration: underline; }
-
-/* The Master Container */
-.page-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 20px 40px 20px;
-}
-
-/* Typography for Names */
-.collaborator-name {
-    color: #999999;
-    font-size: 2em;
-    font-weight: bold;
-    margin: 0 0 1rem 0;
-    line-height: 1.2;
-}
-
-/* Profile Block Layout (Image left, text right) */
-.collaborator-block {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    margin: 4rem 0 2rem 0;
-}
-
-/* Profile Pictures */
-.profile-pic {
-    width: 180px;
-    height: auto;
-    flex-shrink: 0;
-    border-radius: 4px;
-}
-
-/* Grid for the artwork/documents below bios */
-.grid-2-col { 
-    display: grid; 
-    grid-template-columns: 1fr 1fr; 
-    gap: 2rem; 
-    justify-items: center;
-    align-items: end; 
-    margin: 3rem 0; 
-}
-
-/* Blockquote styling for the Whorf quote */
-blockquote {
-    border-left: 4px solid #60a5fa;
-    padding-left: 1.5rem;
-    margin: 2rem 0;
-    font-style: italic;
-    color: #99a1af;
-}
-
-/* Profile Pictures */
-.profile-pic {
-    width: 150px; 
-    height: auto;
-    flex-shrink: 0;
-    border-radius: 4px;
-}
-
-@media (max-width: 600px) {
-  div[style*="gap: 60px"] {
-    flex-wrap: nowrap !important;
-    gap: 15px !important;
+  img {
+    max-width: 100% !important;
+    height: auto !important;
   }
   
-  div[style*="gap: 60px"] a {
-    font-size: 0.75rem !important;
-    white-space: nowrap !important;
+  body {
+    overflow-x: hidden;
+    width: 100%;
   }
-}
-</style> 
+  
+  p, span, pre, code {
+    max-width: 100%;
+    word-break: break-word;
+  }
+
+  .mobile-spacer {
+    display: none;
+  }
+
+  /* Dark mode: force dark text on light background */
+  html.dark body,
+  html.dark p,
+  html.dark span,
+  html.dark li,
+  html.dark h1,
+  html.dark h2,
+  html.dark h3,
+  html.dark h4,
+  html.dark h5,
+  html.dark h6 {
+    color: #1a1a1a !important;
+    -webkit-text-fill-color: #1a1a1a !important;
+  }
+
+  html.dark a {
+    color: #006688 !important;
+    -webkit-text-fill-color: #006688 !important;
+  }
+
+  html.dark mjx-container,
+  html.dark mjx-container svg,
+  html.dark mjx-container svg *,
+  html.dark mjx-container path,
+  html.dark mjx-container g {
+    color: #1a1a1a !important;
+    fill: #1a1a1a !important;
+    stroke: #1a1a1a !important;
+    -webkit-text-fill-color: #1a1a1a !important;
+  }
+
+  :root,
+  .dark {
+    --background: #ffffff !important;
+  }
+
+  /* Layout scaling */
+  @media (max-width: 480px) {
+    html {
+      overflow-x: hidden;
+    }
+
+    body {
+      transform: scale(0.48);
+      transform-origin: top left;
+      width: 208%;
+      overflow-x: hidden;
+    }
+  }
+</style>
 
 <h1 class="text-center text-[36px] font-bold leading-[60px] text-[#94a3b8]">Åpecranꓘ: The Tenebric Symplecticum</h1>
 <!-- Link Navigation Row -->
