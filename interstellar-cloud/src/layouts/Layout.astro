@@ -133,152 +133,69 @@ const rssHref = getRelativeLocaleUrl(
 </script>
 
 <style>
-  /* Ensure images never overflow */
   img {
     max-width: 100% !important;
     height: auto !important;
   }
   
-  /* Prevent horizontal body blowout */
   body {
     overflow-x: hidden;
     width: 100%;
   }
   
-  /* Force long text blocks to wrap safely */
   p, span, pre, code {
     max-width: 100%;
     word-break: break-word;
   }
-  /* Hide spacer on desktop, show on mobile */
+
   .mobile-spacer {
     display: none;
   }
 
-  /* MOBILE: SHRINK THE DESKTOP LAYOUT + COLOR FIXES */
+  /* Always apply color fixes — no media query */
+  body, p, span, li {
+    color: #1a1a1a !important;
+  }
+
+  a {
+    color: #006688 !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #000000 !important;
+  }
+
+  pre, code, .bg-slate-900, .bg-zinc-900, .bg-gray-900 {
+    background-color: #f4f4f5 !important;
+    color: #1a1a1a !important;
+  }
+
+  mjx-container,
+  mjx-container[display="true"],
+  mjx-container svg,
+  mjx-container svg * {
+    color: #1a1a1a !important;
+    fill: #1a1a1a !important;
+    stroke: #1a1a1a !important;
+    opacity: 1 !important;
+  }
+
+  :root,
+  .dark {
+    --background: #ffffff !important;
+  }
+
+  /* Layout scaling — still in media queries since it breaks desktop */
   @media (max-width: 480px) {
-    div[id^="Section"] {
-      width: 180% !important;
-      transform: scale(0.55) !important;
-      transform-origin: top left !important;
-      margin-left: 0 !important;
-      padding-left: 0 !important;
-    }
-
-    /* Let the parent container allow overflow so the scaled content fits */
-    main, article, .prose {
-      overflow-x: visible !important;
-    }
-
-    .mobile-spacer {
-      display: block !important;
-      min-height: 120px;
-      width: 100%;
-      background-color: red !important;
-    }
-
     html {
       overflow-x: hidden;
     }
-    .labs-link {
-      padding-top: 180px !important;
-    }
+
     body {
       transform: scale(0.48);
       transform-origin: top left;
       width: 208%;
       overflow-x: hidden;
-    }
-
-    /* --- COLOR FIXES --- */
-    body, p, span, li {
-      color: #1a1a1a !important;
-    }
-
-    a {
-      color: #006688 !important;
-    }
-
-    h1, h2, h3, h4, h5, h6 {
-      color: #000000 !important;
-    }
-
-    pre, code, .bg-slate-900, .bg-zinc-900, .bg-gray-900 {
-      background-color: #f4f4f5 !important;
-      color: #1a1a1a !important;
-    }
-
-    /* LaTeX - match body text color */
-    mjx-container,
-    mjx-container[display="true"],
-    mjx-container mjx-math,
-    mjx-container svg,
-    mjx-container svg *,
-    mjx-container path,
-    mjx-container g {
-      color: #1a1a1a !important;
-      fill: #1a1a1a !important;
-      stroke: #1a1a1a !important;
-      opacity: 1 !important;
-    }
-
-    /* Header background */
-    :root,
-    .dark {
-      --background: #ffffff !important;
-    }
-
-    /* LaTeX - nuclear option */
-    mjx-container,
-    mjx-container[display="true"],
-    mjx-container mjx-math,
-    mjx-container svg,
-    mjx-container svg *,
-    mjx-container path,
-    mjx-container g {
-      color: #1a1a1a !important;
-      fill: #1a1a1a !important;
-      stroke: #1a1a1a !important;
-      opacity: 1 !important;
-      filter: none !important;
-    }
-    :root,
-    .dark {
-      --background: #ffffff !important;
-    }
-  }
-    /* Catch phones that report > 480px */
-  @media (max-width: 800px) {
-    body, p, span, li {
-      color: #1a1a1a !important;
-    }
-
-    a {
-      color: #006688 !important;
-    }
-
-    h1, h2, h3, h4, h5, h6 {
-      color: #000000 !important;
-    }
-
-    pre, code, .bg-slate-900, .bg-zinc-900, .bg-gray-900 {
-      background-color: #f4f4f5 !important;
-      color: #1a1a1a !important;
-    }
-
-    mjx-container,
-    mjx-container[display="true"],
-    mjx-container svg,
-    mjx-container svg * {
-      color: #1a1a1a !important;
-      fill: #1a1a1a !important;
-      stroke: #1a1a1a !important;
-      opacity: 1 !important;
-    }
-
-    :root,
-    .dark {
-      --background: #ffffff !important;
     }
   }
 </style>
