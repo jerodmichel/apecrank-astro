@@ -178,37 +178,30 @@ const rssHref = getRelativeLocaleUrl(
     stroke: #1a1a1a !important;
   }
 
+  .dark mjx-container,
+  .dark mjx-container svg,
+  .dark mjx-container svg *,
+  .dark mjx-container path,
+  .dark mjx-container g,
+  .dark mjx-container text {
+    color: #1a1a1a !important;
+    fill: #1a1a1a !important;
+    stroke: #1a1a1a !important;
+    -webkit-text-fill-color: #1a1a1a !important;
+  }
+
   :root,
   .dark {
     --background: #ffffff !important;
   }
 
-  [data-theme="dark"] body,
-  [data-theme="dark"] p,
-  [data-theme="dark"] span,
-  [data-theme="dark"] li,
-  [data-theme="dark"] h1,
-  [data-theme="dark"] h2,
-  [data-theme="dark"] h3,
-  [data-theme="dark"] h4,
-  [data-theme="dark"] h5,
-  [data-theme="dark"] h6 {
-    color: #1a1a1a !important;
-    -webkit-text-fill-color: #1a1a1a !important;
-  }
-
-  [data-theme="dark"] a {
-    color: #006688 !important;
-    -webkit-text-fill-color: #006688 !important;
-  }
-
-  [data-theme="dark"] mjx-container,
-  [data-theme="dark"] mjx-container svg,
-  [data-theme="dark"] mjx-container svg * {
-    color: #1a1a1a !important;
-    fill: #1a1a1a !important;
-    stroke: #1a1a1a !important;
-    -webkit-text-fill-color: #1a1a1a !important;
+  .dark {
+    --foreground: #1a1a1a !important;
+    --text: #1a1a1a !important;
+    --color: #1a1a1a !important;
+    --text-color: #1a1a1a !important;
+    --link: #006688 !important;
+    --link-color: #006688 !important;
   }
 
   /* Layout scaling */
