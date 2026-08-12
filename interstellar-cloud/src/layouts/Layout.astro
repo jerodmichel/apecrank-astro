@@ -176,7 +176,7 @@ const rssHref = getRelativeLocaleUrl(
       width: 100%;
       background-color: red !important;
     }
-    
+
     html {
       overflow-x: hidden;
     }
@@ -242,6 +242,40 @@ const rssHref = getRelativeLocaleUrl(
       opacity: 1 !important;
       filter: none !important;
     }
+    :root,
+    .dark {
+      --background: #ffffff !important;
+    }
+  }
+    /* Catch phones that report > 480px */
+  @media (max-width: 800px) {
+    body, p, span, li {
+      color: #1a1a1a !important;
+    }
+
+    a {
+      color: #006688 !important;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: #000000 !important;
+    }
+
+    pre, code, .bg-slate-900, .bg-zinc-900, .bg-gray-900 {
+      background-color: #f4f4f5 !important;
+      color: #1a1a1a !important;
+    }
+
+    mjx-container,
+    mjx-container[display="true"],
+    mjx-container svg,
+    mjx-container svg * {
+      color: #1a1a1a !important;
+      fill: #1a1a1a !important;
+      stroke: #1a1a1a !important;
+      opacity: 1 !important;
+    }
+
     :root,
     .dark {
       --background: #ffffff !important;
