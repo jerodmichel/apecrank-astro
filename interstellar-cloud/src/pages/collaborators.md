@@ -71,6 +71,18 @@ blockquote {
     flex-shrink: 0;
     border-radius: 4px;
 }
+
+@media (max-width: 600px) {
+  div[style*="gap: 60px"] {
+    flex-wrap: nowrap !important;
+    gap: 15px !important;
+  }
+  
+  div[style*="gap: 60px"] a {
+    font-size: 0.75rem !important;
+    white-space: nowrap !important;
+  }
+}
 </style> 
 
 <h1 class="text-center text-[36px] font-bold leading-[60px] text-[#94a3b8]">Åpecranꓘ: The Tenebric Symplecticum</h1>
