@@ -1,7 +1,7 @@
 ---
 title: "Intercepted Transmission: TAU-047-23-B"
 pubDatetime: 2026-08-08T00:00:00Z
-author: "enscribe"
+author: "Kristopher Lawrence"
 featured: false
 draft: false
 tags: ["fiction", "short story", "kristopher lawrence", "coptic", "systemic analysis"]
