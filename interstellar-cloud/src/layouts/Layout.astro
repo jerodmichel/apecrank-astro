@@ -185,14 +185,7 @@ const rssHref = getRelativeLocaleUrl(
     --background: #ffffff !important;
   }
 
-  /* Override dark mode text colors */
-  html.dark body {
-    background-color: red !important;
-  }
-  
-  html.dark p,
-  html.dark span,
-  html.dark li {
+  html.dark * {
     color: #1a1a1a !important;
   }
 
@@ -200,16 +193,8 @@ const rssHref = getRelativeLocaleUrl(
     color: #006688 !important;
   }
 
-  html.dark h1,
-  html.dark h2,
-  html.dark h3,
-  html.dark h4,
-  html.dark h5,
-  html.dark h6 {
-    color: #000000 !important;
-  }
-
   html.dark mjx-container,
+  html.dark mjx-container *,
   html.dark mjx-container svg,
   html.dark mjx-container svg * {
     color: #1a1a1a !important;
