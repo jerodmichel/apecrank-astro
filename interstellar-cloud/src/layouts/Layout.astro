@@ -210,6 +210,19 @@ const rssHref = getRelativeLocaleUrl(
     stroke: #1a1a1a !important;
   }
 
+  html.dark mjx-container,
+  html.dark mjx-container *,
+  html.dark mjx-container svg,
+  html.dark mjx-container svg *,
+  html.dark mjx-container path,
+  html.dark mjx-container g,
+  html.dark mjx-container text {
+    color: #1a1a1a !important;
+    fill: #1a1a1a !important;
+    stroke: #1a1a1a !important;
+    -webkit-text-fill-color: #1a1a1a !important;
+  }
+
   /* Layout scaling — still in media queries since it breaks desktop */
   @media (max-width: 480px) {
     html {
