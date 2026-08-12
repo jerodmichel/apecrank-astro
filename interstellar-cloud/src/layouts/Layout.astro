@@ -183,31 +183,28 @@ const rssHref = getRelativeLocaleUrl(
     --background: #ffffff !important;
   }
 
-  /* Dark mode overrides — targeted, not universal */
-  html.dark body,
-  html.dark p,
-  html.dark span,
-  html.dark li,
-  html.dark h1,
-  html.dark h2,
-  html.dark h3,
-  html.dark h4,
-  html.dark h5,
-  html.dark h6 {
+  [data-theme="dark"] body,
+  [data-theme="dark"] p,
+  [data-theme="dark"] span,
+  [data-theme="dark"] li,
+  [data-theme="dark"] h1,
+  [data-theme="dark"] h2,
+  [data-theme="dark"] h3,
+  [data-theme="dark"] h4,
+  [data-theme="dark"] h5,
+  [data-theme="dark"] h6 {
     color: #1a1a1a !important;
     -webkit-text-fill-color: #1a1a1a !important;
   }
 
-  html.dark a {
+  [data-theme="dark"] a {
     color: #006688 !important;
     -webkit-text-fill-color: #006688 !important;
   }
 
-  html.dark mjx-container,
-  html.dark mjx-container svg,
-  html.dark mjx-container svg *,
-  html.dark mjx-container path,
-  html.dark mjx-container g {
+  [data-theme="dark"] mjx-container,
+  [data-theme="dark"] mjx-container svg,
+  [data-theme="dark"] mjx-container svg * {
     color: #1a1a1a !important;
     fill: #1a1a1a !important;
     stroke: #1a1a1a !important;
