@@ -133,14 +133,6 @@ const rssHref = getRelativeLocaleUrl(
 </script>
 
 <style>
-  html.dark body,
-  html.dark body *,
-  html.dark #main-content,
-  html.dark #main-content * {
-    color: #1a1a1a !important;
-    -webkit-text-fill-color: #1a1a1a !important;
-  }
-
   img {
     max-width: 100% !important;
     height: auto !important;
@@ -160,7 +152,7 @@ const rssHref = getRelativeLocaleUrl(
     display: none;
   }
 
-  /* Always apply color fixes — no media query */
+  /* Base colors — always apply */
   body, p, span, li {
     color: #1a1a1a !important;
   }
@@ -179,13 +171,11 @@ const rssHref = getRelativeLocaleUrl(
   }
 
   mjx-container,
-  mjx-container[display="true"],
   mjx-container svg,
   mjx-container svg * {
     color: #1a1a1a !important;
     fill: #1a1a1a !important;
     stroke: #1a1a1a !important;
-    opacity: 1 !important;
   }
 
   :root,
@@ -193,37 +183,38 @@ const rssHref = getRelativeLocaleUrl(
     --background: #ffffff !important;
   }
 
-  html.dark * {
+  /* Dark mode overrides — targeted, not universal */
+  html.dark body,
+  html.dark p,
+  html.dark span,
+  html.dark li,
+  html.dark h1,
+  html.dark h2,
+  html.dark h3,
+  html.dark h4,
+  html.dark h5,
+  html.dark h6 {
     color: #1a1a1a !important;
+    -webkit-text-fill-color: #1a1a1a !important;
   }
 
   html.dark a {
     color: #006688 !important;
+    -webkit-text-fill-color: #006688 !important;
   }
 
   html.dark mjx-container,
-  html.dark mjx-container *,
-  html.dark mjx-container svg,
-  html.dark mjx-container svg * {
-    color: #1a1a1a !important;
-    fill: #1a1a1a !important;
-    stroke: #1a1a1a !important;
-  }
-
-  html.dark mjx-container,
-  html.dark mjx-container *,
   html.dark mjx-container svg,
   html.dark mjx-container svg *,
   html.dark mjx-container path,
-  html.dark mjx-container g,
-  html.dark mjx-container text {
+  html.dark mjx-container g {
     color: #1a1a1a !important;
     fill: #1a1a1a !important;
     stroke: #1a1a1a !important;
     -webkit-text-fill-color: #1a1a1a !important;
   }
 
-  /* Layout scaling — still in media queries since it breaks desktop */
+  /* Layout scaling */
   @media (max-width: 480px) {
     html {
       overflow-x: hidden;
