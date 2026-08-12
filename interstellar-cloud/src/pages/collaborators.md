@@ -72,14 +72,14 @@ blockquote {
     border-radius: 4px;
 }
 @media (max-width: 600px) {
-  .grid-2-col {
-    grid-template-columns: 1fr 1fr !important;
-    gap: 1rem !important;
+  div[style*="gap: 60px"] {
+    flex-wrap: nowrap !important;
+    gap: 15px !important;
   }
   
-  .grid-2-col img {
-    max-width: 100% !important;
-    height: auto !important;
+  div[style*="gap: 60px"] a {
+    font-size: 0.75rem !important;
+    white-space: nowrap !important;
   }
 }
 </style> 
