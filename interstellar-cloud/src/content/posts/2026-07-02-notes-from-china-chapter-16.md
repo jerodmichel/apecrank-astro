@@ -318,3 +318,13 @@ kěnéng/yěxǔ/yǒu kěnéng</span></p>
 
 
 
+
+<style>
+  @media (max-width: 480px) {
+    div[id^="Section"] {
+      width: 110% !important;
+      transform: scale(1.0) !important;
+      transform-origin: top left !important;
+    }
+  }
+</style>

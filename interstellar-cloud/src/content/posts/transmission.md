@@ -81,6 +81,29 @@ description: "An intercepted extrasolar transmission containing a terrestrial an
   }
 
 @media (max-width: 768px) {
+  .english-col br {
+    display: none !important;
+  }
+  
+  .english-col p,
+  .coptic-col {
+    line-height: 1.4 !important;
+  }
+
+  .english-col h2 {
+    line-height: 1.4 !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 0.3rem !important;
+  }
+
+  /* Make Coptic bold titles match English h2 spacing */
+  .coptic-col b {
+    display: block !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 0.3rem !important;
+    line-height: 1.4 !important;
+  }
+
   .mono-header {
     flex-direction: column !important;
     align-items: flex-start !important;

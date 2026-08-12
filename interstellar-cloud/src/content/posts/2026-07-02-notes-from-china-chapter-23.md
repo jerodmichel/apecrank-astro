@@ -298,3 +298,12 @@ wàijiāo bù</span></span></p>
 <span style="color: #333333;">-------------------------------------</span></p><p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"><span style="color: #333333;">&nbsp;</span></p><p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"><a href="https://apecrank.blogspot.com/2011/04/notes-from-china-chapter-22-shut-door.html">Previous Chapter</a><span style="color: #333333;"> <br /></span></p><p class="western" style="line-height: 100%; margin-bottom: 0in; text-decoration: none;"><a href="https://apecrank.blogspot.com/2011/04/notes-from-china-chapter-24-obtain-safe.html">Next Chapter</a><span style="color: #333333;"><br /></span></p>
 
 <p><style type="text/css">p { margin-bottom: 0.1in; direction: ltr; color: #000000; line-height: 120%; orphans: 2; widows: 2; background: transparent }p.western { font-family: "Liberation Serif", "Times New Roman", serif; font-size: 12pt; so-language: en-US }p.cjk { font-family: "Noto Sans CJK SC Regular"; font-size: 12pt; so-language: zh-CN }p.ctl { font-family: "FreeSans"; font-size: 12pt; so-language: hi-IN }a:link { color: #000080; so-language: zxx; text-decoration: underline }</style></p>
+<style>
+  @media (max-width: 480px) {
+    div[id^="Section"] {
+      width: 110% !important;
+      transform: scale(1.0) !important;
+      transform-origin: top left !important;
+    }
+  }
+</style>

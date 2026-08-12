@@ -157,12 +157,26 @@ const rssHref = getRelativeLocaleUrl(
 
   /* MOBILE: SHRINK THE DESKTOP LAYOUT + COLOR FIXES */
   @media (max-width: 480px) {
+    div[id^="Section"] {
+      width: 180% !important;
+      transform: scale(0.55) !important;
+      transform-origin: top left !important;
+      margin-left: 0 !important;
+      padding-left: 0 !important;
+    }
+
+    /* Let the parent container allow overflow so the scaled content fits */
+    main, article, .prose {
+      overflow-x: visible !important;
+    }
+
     .mobile-spacer {
       display: block !important;
       min-height: 120px;
       width: 100%;
       background-color: red !important;
     }
+    
     html {
       overflow-x: hidden;
     }
