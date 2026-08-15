@@ -143,7 +143,7 @@ a:hover { color: #c084fc; text-decoration: underline; }
   <!-- Kristopher Lawrence Section -->
   <div style="text-align: left; margin-left: var(--text-nudge);">
     <div class="section-title">Works of Kristopher<br />Lawrence:</div>
-    <div class="section-subtitle">(Published on <a href="http://theweirdcrap.com">theweirdcrap.com</a>)</div>
+    <div class="section-subtitle">(Published by Hyperion Academic & Tech, LLC)</div>
     <div class="illustration-credit">Illustrations by Billy Hill</div>
   </div>
 
@@ -180,7 +180,7 @@ a:hover { color: #c084fc; text-decoration: underline; }
         </a>
       </div>
       <!-- RIGHT COLUMN: The tall diagram -->
-      <a href="https://apecrank.blogspot.com/2011/03/notes-from-china.html" style="transform: translateX(-50px);">
+      <a href="/notes-from-china" style="transform: translateX(-50px);">
         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3sN_MyHmrKdOgSQ4ZFjKSDN3Z_3hdym7CPiI9ocwlQVLiDZS8J54nZal2JGYndbJ7Ke4PjnaOiUtqAj6XftjUeqxPqRDLuR-Jh1hzRg50TU3N4wA1rp0Xlh8139cDsEVz_OW40oRf2BY4xcY3VWh9rY6-EmOsAC2XWnlFbRzzAIO2H6aHW_52mMkzm64/s320/Lucid_Origin_A_highly_detailed_diagram_explaining_each_bone_in_069A.png" alt="Detailed Diagram" width="199" height="320" />
       </a>
     </div>
