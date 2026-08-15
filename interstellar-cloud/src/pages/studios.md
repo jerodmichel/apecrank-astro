@@ -45,7 +45,7 @@ a:hover { color: #c084fc; text-decoration: underline; }
 }
 
 /* Force desktop layout on mobile by scaling */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     .page-container {
     transform: scale(0.85);
     transform-origin: top left;
