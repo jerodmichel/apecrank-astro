@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 9: 隔岸观火: Watch the Fires Burning from Across the River"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Watch the Fires Burning from Across the River", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "隔岸观火"]
 description: "The ninth stratagem: Watch the Fires Burning from Across the River."

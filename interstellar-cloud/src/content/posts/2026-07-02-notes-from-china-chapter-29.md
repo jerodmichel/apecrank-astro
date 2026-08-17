@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 29: 树上开花: Deck the Tree With False Blossoms"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Deck the Tree With False Blossoms", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "树上开花"]
 description: "The twenty-ninth stratagem: Deck the Tree With False Blossoms."

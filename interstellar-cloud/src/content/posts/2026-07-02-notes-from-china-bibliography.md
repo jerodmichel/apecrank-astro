@@ -2,7 +2,7 @@
 title: "Notes from China: Bibliography"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Bibliography", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching"]
 description: "Notes from China: Bibliography."

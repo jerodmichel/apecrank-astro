@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 26: 指桑骂槐: Point at the Mulberry Tree While Cursing the Locust Tree"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Notes from China: Chapter 26: 指桑骂槐: Point at the Mulberry Tree While Cursing the Locust Tree", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "指桑骂槐"]
 description: "The twenty-sixth stratagem: Sacrifice the Plum Tree to Preserve the Peach Tree."

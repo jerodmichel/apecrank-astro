@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 24: 假道伐虢: Obtain Safe Passage to Conquer the State of Guo"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Obtain Safe Passage to Conquer the State of Guo", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "假道伐虢"]
 description: "The twenty-fourth stratagem: Obtain Safe Passage to Conquer the State of Guo."

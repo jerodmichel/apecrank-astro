@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 21: 金蝉脱壳: The Golden Cicada Sloughs off Its Shell"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "The Golden Cicada Sloughs off Its Shell", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "金蝉脱壳"]
 description: "The twenty-first stratagem: The Golden Cicada Sloughs off Its Shell."

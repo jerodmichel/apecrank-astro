@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 11: 李代桃僵: Sacrifice the Plum Tree to Preserve the Peach Tree"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Sacrifice the Plum Tree to Preserve the Peach Tree", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "李代桃僵"]
 description: "The eleventh stratagem: Sacrifice the Plum Tree to Preserve the Peach Tree."

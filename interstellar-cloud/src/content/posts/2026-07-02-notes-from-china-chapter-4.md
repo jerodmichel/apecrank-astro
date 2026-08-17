@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 4: 以逸待劳: Wait at Leisure While the Enemy Labors"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Wait at Leisure While the Enemy Labors", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "以逸待劳"]
 description: "The fourth stratagem: Wait at Leisure While the Enemy Labors."

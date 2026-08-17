@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 5: 趁火打劫: Loot a Burning House"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Loot a Burning House", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "趁火打劫"]
 description: "The fifth stratagem: Loot a Burning House."

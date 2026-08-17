@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 14: 借尸还魂: Borrow a Corpse to Resurrect the Soul"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Borrow a Corpse to Resurrect the Soul", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "借尸还魂"]
 description: "The fourteenth stratagem: Borrow a Corpse to Resurrect the Soul."

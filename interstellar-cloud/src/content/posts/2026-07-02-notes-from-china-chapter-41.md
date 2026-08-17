@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 41: Chen Ping's Fifth Strategy"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Chen Ping's Fifth Strategy", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching"]
 description: "The fourty-first stratagem: Chen Ping's Fifth Strategy."

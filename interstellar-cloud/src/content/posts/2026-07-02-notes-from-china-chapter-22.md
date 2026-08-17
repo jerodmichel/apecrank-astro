@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 22: 关门捉贼: Shut the Door to Catch the Thief"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Shut the Door to Catch the Thief", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "关门捉贼"]
 description: "The twenty-second stratagem: Shut the Door to Catch the Thief."

@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 17: 抛砖引玉: Cast Out a Brick to Secure Jade"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Cast Out a Brick to Secure Jade", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "抛砖引玉"]
 description: "The seventeenth stratagem: Cast Out a Brick to Secure Jade."

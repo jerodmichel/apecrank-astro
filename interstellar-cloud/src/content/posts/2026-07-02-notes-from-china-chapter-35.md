@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 35: 连环计: Chain Stratagems"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Chain Stratagems", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "连环计"]
 description: "The eleventh stratagem: Chain Stratagems."

@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 16: 欲擒故纵: In Order to Capture, One Must Let Loose"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "In Order to Capture, One Must Let Loose", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "欲擒故纵"]
 description: "The sixteenth stratagem: In Order to Capture, One Must Let Loose."

@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 18: 擒贼擒王: Defeat the Enemy by Capturing Its Chief"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Defeat the Enemy by Capturing Its Chief", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "擒贼擒王"]
 description: "The eighteenth stratagem: Defeat the Enemy by Capturing Its Chief."

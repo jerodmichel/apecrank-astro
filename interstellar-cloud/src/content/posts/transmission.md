@@ -2,7 +2,7 @@
 title: "Intercepted Transmission: TAU-047-23-B"
 pubDatetime: 2026-08-08T00:00:00Z
 author: "Kristopher Lawrence"
-featured: false
+featured: true
 draft: false
 tags: ["fiction", "short story", "kristopher lawrence", "coptic", "systemic analysis"]
 description: "An intercepted extrasolar transmission containing a terrestrial analysis of human vertical gradient formation."

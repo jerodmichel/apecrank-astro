@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 10: 笑里藏刀: Hide a Knife Behind a Smile"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Hide a Knife Behind a Smile", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "笑里藏刀"]
 description: "The tenth stratagem: Hide a Knife Behind a Smile."

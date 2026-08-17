@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 31: 美人计: The Beauty Trap (Honey Trap)"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "The Beauty Trap (Honey Trap)", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "美人计"]
 description: "The thirty-first stratagem: The Beauty Trap (Honey Trap)."

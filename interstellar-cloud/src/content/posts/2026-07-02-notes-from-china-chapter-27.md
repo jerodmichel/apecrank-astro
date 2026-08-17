@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 27: 假痴不癫: Feign Madness but Keep Your Balance"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Feign Madness but Keep Your Balance", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "假痴不癫"]
 description: "The twenty-seventh stratagem: Feign Madness but Keep Your Balance."

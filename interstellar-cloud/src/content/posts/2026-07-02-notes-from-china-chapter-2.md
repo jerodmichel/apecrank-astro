@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 2: 围魏救赵: Besiege Wei to Rescue Zhao"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Besiege Wei to Rescue Zhao", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "围魏救赵"]
 description: "The second stratagem: Besiege Wei to Rescue Zhao."

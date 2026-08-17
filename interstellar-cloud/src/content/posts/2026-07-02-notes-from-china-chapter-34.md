@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 34: 苦肉计: Inflict Injury On One's Self to Win the Enemy's Trust"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Inflict Injury On One's Self to Win the Enemy's Trust", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "苦肉计"]
 description: "The thirty-fourth stratagem: Inflict Injury On One's Self to Win the Enemy's Trust."

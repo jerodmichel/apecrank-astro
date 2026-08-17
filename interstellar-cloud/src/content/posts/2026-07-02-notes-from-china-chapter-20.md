@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 20: 混水摸鱼: Disturb the Water to Catch a Fish"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Disturb the Water to Catch a Fish", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "混水摸鱼"]
 description: "The twentieth stratagem: Disturb the Water to Catch a Fish."

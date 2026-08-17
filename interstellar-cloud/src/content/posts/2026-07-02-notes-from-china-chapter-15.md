@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 15: 调虎离山: Lure the Tiger Out of the Mountains"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Lure the Tiger Out of the Mountains", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "调虎离山"]
 description: "The fifteenth stratagem: Lure the Tiger Out of the Mountains."

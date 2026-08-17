@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 32: 空城计: The Empty City Stratagem"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "The Empty City Stratagem", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "空城计"]
 description: "The eleventh stratagem: The Empty City Stratagem."

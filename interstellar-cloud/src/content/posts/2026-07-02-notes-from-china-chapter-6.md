@@ -3,7 +3,7 @@ layout: "@/layouts/NotesLayout.astro"
 title: "Notes from China: Chapter 6: 声东击西: Make a Feint in the East While Attacking in the West"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Make a Feint in the East While Attacking in the West", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "声东击西"]
 description: "The sixth stratagem: Make a Feint in the East While Attacking in the West."

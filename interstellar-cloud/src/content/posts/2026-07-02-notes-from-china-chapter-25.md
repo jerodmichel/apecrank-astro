@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 25: 偷梁换柱: Replace the Beams with Rotten Timbers"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Replace the Beams with Rotten Timbers", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "偷梁换柱"]
 description: "The twenty-fifth stratagem: Replace the Beams with Rotten Timbers."

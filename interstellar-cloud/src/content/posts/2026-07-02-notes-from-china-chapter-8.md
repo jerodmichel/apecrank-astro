@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 8: 暗渡陈仓: Openly Repair the Gallery Roads, but Sneak Through the Passage of Chencang"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Openly Repair the Gallery Roads, but Sneak Through the Passage of Chencang", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "暗渡陈仓"]
 description: "The eighth stratagem: Openly Repair the Gallery Roads, but Sneak Through the Passage of Chencang."

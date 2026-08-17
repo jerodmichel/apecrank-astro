@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 33: 反间计: Let the Enemy's Own Spy Sow Discord in the Enemy Camp"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Let the Enemy's Own Spy Sow Discord in the Enemy Camp", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "反间计"]
 description: "The eleventh stratagem: Let the Enemy's Own Spy Sow Discord in the Enemy Camp."

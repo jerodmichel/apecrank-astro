@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 0: Preamble"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["mandarin", "hexagrams", "chinese"]
 description: "The introduction and strategic framework."

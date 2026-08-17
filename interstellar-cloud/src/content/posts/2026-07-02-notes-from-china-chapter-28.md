@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 28: 上屋抽梯: Remove the Ladder Once the Enemy Has Ascended to the Roof"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Remove the Ladder Once the Enemy Has Ascended to the Roof", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "上屋抽梯"]
 description: "The twenty-eighth stratagem: Remove the Ladder Once the Enemy Has Ascended to the Roof."

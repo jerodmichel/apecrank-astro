@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 23: 远交近攻: Befriend a Distant State While Attacking a Neighbor"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Befriend a Distant State While Attacking a Neighbor", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "远交近攻"]
 description: "The twenty-third stratagem: Befriend a Distant State While Attacking a Neighbor."

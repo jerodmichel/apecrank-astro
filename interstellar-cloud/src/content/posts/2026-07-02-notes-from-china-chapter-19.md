@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 19: 釜底抽薪: Remove the Firewood from Under the Pot"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Remove the Firewood from Under the Pot", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "釜底抽薪"]
 description: "The nineteenth stratagem: Remove the Firewood from Under the Pot."

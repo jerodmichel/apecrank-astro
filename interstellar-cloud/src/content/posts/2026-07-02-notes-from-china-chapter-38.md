@@ -2,7 +2,7 @@
 title: "Notes from China: Chapter 38: Chen Ping's Second Strategy"
 pubDatetime: 2011-03-04T00:00:00Z
 author: enscribe
-featured: true
+featured: false
 draft: false
 tags: ["36 stratagems", "Chen Ping's Second Strategy", "characters", "chinese", "grammar", "hexagrams", "learn chinese", "mandarin", "yi ching", "李代桃僵"]
 description: "The thirty-eighth stratagem: Chen Ping's Second Strategy."
