@@ -120,6 +120,10 @@ title: "LABS"
     <a href="/posts/2026-07-02-mars-symplecticum-chapter-9" class="image-wrapper">
       <img src="/shannon.png" width="250" alt="Shannon Switching" style="background-color: #ffffff;"/>
     </a>
+    <!-- Hex -->
+    <a href="/posts/2026-08-22-mars-symplecticum-chapter-10" class="image-wrapper">
+      <img src="/hex.jpg" width="250" alt="Hex" style="background-color: #ffffff;"/>
+    </a>
 
   </div> <!-- THIS CLOSES THE .labs-columns DIV -->
   
