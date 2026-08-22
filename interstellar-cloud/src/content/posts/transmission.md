@@ -27,10 +27,16 @@ description: "An intercepted extrasolar transmission containing a terrestrial an
     margin-bottom: 2rem;
     font-size: 0.9rem;
     line-height: 1.4;
-    white-space: pre-wrap;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 2rem;
+  }
+
+  .ascii-art {
+    white-space: pre !important;
+    overflow-x: auto !important;
+    font-family: monospace;
   }
 
   .transmission-title {
@@ -170,8 +176,8 @@ description: "An intercepted extrasolar transmission containing a terrestrial an
 
   <!-- ASCII TRANSMISSION HEADER -->
   <div class="mono-header">
-    <div>
-╔════════════════════════════════════════════════
+    <div class="ascii-art">
+╔════════════════════════════════════════
 ║ INTERCEPTED TRANSMISSION ║ TAU-047-23-B
 ║ ORIGIN: UNKNOWN (extrasolar origin detected)
 ║ DESTINATION: UNKNOWN (scattered signal)
@@ -194,13 +200,13 @@ description: "An intercepted extrasolar transmission containing a terrestrial an
 ║ CLASSIFICATION: ROUTINE          
 ║ PRIORITY: LOW                     
 ║ DISTRIBUTION: RESTRICTED         
-╚════════════════════════════════════════════════
+╚════════════════════════════════════════
     </div>
-    <div style="display: flex; flex-direction: column; align-items: center; gap: 1.5rem;">
-  <img src="/alien87.png" alt="Hexagonal Node Matrix" style="max-width: 190px; height: auto;" />
-  <!-- ALIEN IMAGE INSIDE HEADER -->
-  <img src="/alien_rapix.png" alt="Extraterrestrial Entity" style="max-width: 150px; height: auto;" />
-</div>
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 1.5rem; flex-shrink: 0;">
+      <img src="/alien87.png" alt="Hexagonal Node Matrix" style="max-width: 170px; height: auto;" />
+      <!-- ALIEN IMAGE INSIDE HEADER -->
+      <img src="/alien_rapix.png" alt="Extraterrestrial Entity" style="max-width: 130px; height: auto;" />
+    </div>
   </div>
 
   <!-- TITLE BLOCK -->
