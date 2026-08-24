@@ -627,8 +627,9 @@ The Lisp component handles game flow, state managemant, the building of boards, 
 
 (defun draw-svg-board (filename &optional game-over-msg)
   "Builds SVG, writes to temp file, and uses native SBCL mv for atomic updates."
-  (let* ((width (+ *offset* (* *cols* *cell-size*)))
-         (height (+ *offset* (* *rows* *cell-size*)))
+  (let* ((padding 15)
+         (width (+ *offset* (* *cols* *cell-size*) padding))
+         (height (+ *offset* (* *rows* *cell-size*) padding))
          (temp-filename (concatenate 'string filename ".tmp"))
          (svg-data
           (with-output-to-string (stream)
@@ -669,7 +670,6 @@ The Lisp component handles game flow, state managemant, the building of boards, 
       (write-string svg-data out))
     
     ;; 2. atomic rename using SBCL's native program runner
-    ;; this bypasses 4KB OS buffer issue and forces eog to reload safely
     (sb-ext:run-program "mv" (list temp-filename filename) :search t)))
 
 ;;; ==========================================
