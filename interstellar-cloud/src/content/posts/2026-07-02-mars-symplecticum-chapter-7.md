@@ -6,7 +6,7 @@ author: "Jerod Michel, Gao Yucheng"
 tags: ["bash", "lisp", "combinatorial game theory", "command line", "Domineering", "perfect information", "math"]
 ---
 
-<blockquote class="text-right ml-auto max-w-2xl italic mb-8 !border-none !pl-0">
+<blockquote class="text-right ml-auto max-w-2xl italic mb-8 !border-none !pl-0 before:content-none after:content-none [quotes:none]">
   <p>"In strategy the longest way round is often the shortest way there; a direct approach to the object exhausts the attacker and hardens the resistance by compression."</p>
   <p class="font-bold mt-2">— B.H. Liddell Hart, Strategy: The Indirect Approach (1941)</p>
 </blockquote>

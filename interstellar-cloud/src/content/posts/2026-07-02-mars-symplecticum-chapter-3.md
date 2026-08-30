@@ -6,7 +6,7 @@ author: "Jerod Michel, Gao Yucheng"
 tags: ["bash", "Wuzi Qi", "Gomoku", "game theory", "command line", "math"]
 ---
 
-<blockquote class="text-right ml-auto max-w-2xl italic mb-8 !border-none !pl-0">
+<blockquote class="text-right ml-auto max-w-2xl italic mb-8 !border-none !pl-0 before:content-none after:content-none [quotes:none]">
   <p>"The heart of the art of concentration is the planning and conduct<br />of the battle itself. In that area, the commander's aim is to<br />bring together a superior force at the decisive point."</p>
   <p class="font-bold mt-2">— Carl von Clausewitz, On War</p>
 </blockquote>

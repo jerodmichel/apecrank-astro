@@ -6,7 +6,7 @@ author: "Jerod Michel, Gao Yucheng"
 tags: ["bash", "lisp", "combinatorial game theory", "command line", "Hex", "perfect information", "math"]
 ---
 
-<blockquote class="text-right ml-auto max-w-2xl italic mb-8 !border-none !pl-0">
+<blockquote class="text-right ml-auto max-w-2xl italic mb-8 !border-none !pl-0 before:content-none after:content-none [quotes:none]">
   <p>"He who defends everything, defends nothing."</p>
   <p class="font-bold mt-2">— Frederick the Great (Prussia)</p>
 </blockquote>

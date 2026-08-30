@@ -6,7 +6,7 @@ author: "Jerod Michel, Gao Yucheng"
 tags: ["bash", "lisp", "binary", "command line", "Dots and Boxes", "perfect information", "math"]
 ---
 
-<blockquote class="text-right ml-auto max-w-2xl italic mb-8 !border-none !pl-0">
+<blockquote class="text-right ml-auto max-w-2xl italic mb-8 !border-none !pl-0 before:content-none after:content-none [quotes:none]">
   <p>"The strength of an army, like the amount of momentum in mechanics, is estimated by mass times the velocity."</p>
   <p class="font-bold mt-2">— Napoleon Bonaparte</p>
 </blockquote>

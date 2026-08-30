@@ -6,7 +6,7 @@ author: "Jerod Michel, Gao Yucheng"
 tags: ["bash", "lisp", "combinatorial game theory", "command line", "Shannon Switching", "perfect information", "math"]
 ---
 
-<blockquote class="text-right ml-auto max-w-2xl italic mb-8 !border-none !pl-0">
+<blockquote class="text-right ml-auto max-w-2xl italic mb-8 !border-none !pl-0 before:content-none after:content-none [quotes:none]">
   <p>"The fundamental principle of war is to operate upon the communications of the enemy without exposing one's own."</p>
   <p class="font-bold mt-2">— Antoine-Henri Jomini, Summary of the Art of War (1838)</p>
 </blockquote>

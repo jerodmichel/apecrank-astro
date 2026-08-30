@@ -6,7 +6,7 @@ author: "Jerod Michel, Gao Yucheng"
 tags: ["bash", "lisp", "combinatorial game theory", "command line", "Gale", "perfect information", "math"]
 ---
 
-<blockquote class="text-right ml-auto max-w-2xl italic mb-8 !border-none !pl-0">
+<blockquote class="text-right ml-auto max-w-2xl italic mb-8 !border-none !pl-0 before:content-none after:content-none [quotes:none]">
   <p>"The object of naval warfare must always be directly or indirectly either to secure the command of the sea or to prevent the enemy from securing it. The paramount concern is the control of communications, and not, as in land warfare, the conquest of territory."</p>
   <p class="font-bold mt-2">— Sir Julian Corbett, Some Principles of Maritime Strategy (1911)</p>
 </blockquote>

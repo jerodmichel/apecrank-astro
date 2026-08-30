@@ -6,7 +6,7 @@ author: "Jerod Michel, Gao Yucheng"
 tags: ["bash", "game theory", "Goofspiel", "mixed strategy", "command line", "math"]
 ---
 
-<blockquote class="text-right ml-auto max-w-2xl italic mb-8 !border-none !pl-0">
+<blockquote class="text-right ml-auto max-w-2xl italic mb-8 !border-none !pl-0 before:content-none after:content-none [quotes:none]">
   <p>"Everyone sees what you appear to be, few experience what you really are."</p>
   <p class="font-bold mt-2">— Niccolò Machiavelli</p>
 </blockquote>

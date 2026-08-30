@@ -12,7 +12,7 @@ tags: ["bash", "binary", "command line", "Dawson's Kayles", "perfect information
 
 **Jerod Michel, Gao Yucheng**
 
-<blockquote class="text-right ml-auto max-w-2xl italic mb-8 !border-none !pl-0">
+<blockquote class="text-right ml-auto max-w-2xl italic mb-8 !border-none !pl-0 before:content-none after:content-none [quotes:none]">
   <p>"War is the realm of uncertainty; three quarters of the factors on which action in war is based are wrapped in a fog of greater or lesser uncertainty."</p>
   <p class="font-bold mt-2">— Carl von Clausewitz, <em>On War</em> (1832), Book 1, Chapter 3</p>
 </blockquote>

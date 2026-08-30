@@ -6,7 +6,7 @@ author: "Jerod Michel, Gao Yucheng"
 tags: ["bash", "lisp", "combinatorial game theory", "command line", "Hackenbush", "perfect information", "math"]
 ---
 
-<blockquote class="text-right ml-auto max-w-2xl italic mb-8 !border-none !pl-0">
+<blockquote class="text-right ml-auto max-w-2xl italic mb-8 !border-none !pl-0 before:content-none after:content-none [quotes:none]">
   <p>"The great art, then, of properly directing lines of operations is so to establish them in reference to the base and to the marches of the army as to seize the communications of the enemy without imperiling one's own, and is the most important and difficult problem in strategy."</p>
   <p class="font-bold mt-2">— Baron Antoine-Henri Jomini, The Art of War (1838), Article XXI</p>
 </blockquote>

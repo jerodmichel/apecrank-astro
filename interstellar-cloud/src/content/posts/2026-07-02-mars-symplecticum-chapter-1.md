@@ -6,9 +6,8 @@ author: "Jerod Michel, Gao Yucheng"
 tags: ["bash", "binary", "command line", "NIM", "perfect information", "math"]
 ---
 
-<blockquote class="text-right ml-auto max-w-2xl italic mb-8 !border-none !pl-0">
-  <p>"When a prince is brave and powerful, he can make peace reign as and when he wants.<br />
-  If, however, he has no powers, someone stronger than him will conquer his lands and rule at his pleasure."</p>
+<blockquote class="text-right ml-auto max-w-2xl italic mb-8 !border-none !pl-0 before:content-none after:content-none [quotes:none]">
+  <p>"When a prince is brave and powerful, he can make peace reign as and when he wants. If, however, he has no powers, someone stronger than him will conquer his lands and rule at his pleasure."</p>
   <p class="font-bold mt-2">— Vlad Dracul III, Letter to the elders of Brașov, 1456</p>
 </blockquote>
 
