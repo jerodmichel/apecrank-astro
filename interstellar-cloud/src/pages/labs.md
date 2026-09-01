@@ -86,11 +86,11 @@ title: "LABS"
   <div class="labs-columns">
     <!-- Nim -->
     <a href="/posts/2026-07-02-mars-symplecticum-chapter-1" class="image-wrapper">
-      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuZEkShYIAPlYtQmsEOqXqnod6_2mw15HAPFbSXIOk7cCV155vHBEb5TDyR5ThkSyNcjGkLoOFmyP6Opp8QaGb14jcTFqlE5JqlWZcH1Gj4mLY4pI4Qv4zXepO-vflRjpshxqsoHFfMMrrnxvkjBnWAdIdSNnQT9a9_2B0XhlMJWuxr1-Q9_FASPsyVss/s320/nim.png" width="220" alt="Nim" style="background-color: #000000;"/>
+      <img src="/nim.png" width="220" alt="Nim" style="background-color: #000000;"/>
     </a>
     <!-- Wuzi Qi -->
     <a href="/posts/2026-07-02-mars-symplecticum-chapter-3" class="image-wrapper">
-      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjY7Q9mn1uA4ErsJShXOr5KrQQ-tKxEeweIey6B0Z2yCiFpLPYSv81RoLALTfB0tpkWzmq0ilSb4SOfy536oQH7eqBUoaRtgRES-10MiseVJqWxvliDmkUGes8TSAQ271ZMBbXCcwaSlVmm1mwcN78dUUQj68jq6CtIW6vibJHxP13LeV2c_JLi0AkHsRQ/s320/wuzi_qi.png" width="238" alt="Wuzi Qi" style="background-color: #000000;"/>
+      <img src="/wuzi_qi.png" width="238" alt="Wuzi Qi" style="background-color: #000000;"/>
     </a>
     <!-- Goofspiel -->
     <a href="/posts/2026-07-02-mars-symplecticum-chapter-2" class="image-wrapper">
