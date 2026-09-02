@@ -94,15 +94,15 @@ title: "LABS"
     </a>
     <!-- Goofspiel -->
     <a href="/posts/2026-07-02-mars-symplecticum-chapter-2" class="image-wrapper">
-      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOSLmR-_LNON5D2YYt-gIcDbWQHgbk3NQNqV4rTtOh0w4r32yWBdMldXNUxUfKIM3GS4QeF2Td7-c8GPvxC3tT7ztqJOC3OMN_Zw0ZlYXdGg_DQSvm9PGBA1ncl1T0kL8f_yoVVL7gwd98v-pTUyIMbAWkjeDXSf6D-OvIQTKsvom1aEE0WmDHQVlKSF4/s320/goofspiel.png" width="255" alt="Goofspiel" style="background-color: #000000;"/>
+      <img src="/goofspiel.png" width="255" alt="Goofspiel" style="background-color: #000000;"/>
     </a>
     <!-- Dots and Boxes -->
     <a href="/posts/2026-07-02-mars-symplecticum-chapter-4" class="image-wrapper">
-      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGm2i4Tf6splfRILubGOxfACWViPYw1rDwZqcz01_qe8Rs6dP632g5fhKqT6mDoyuzaTytEjqYxwyNcvc7ma3BkPk-LSJpwx8dVymSBgdMgEpWZwyjNASCYGmYECOttK1BvQV74QIGN547ehZBF1auhKyi4ks4-9Jnqk7NkCq5Lfd0rgTJS9sytVOToX8/s320/dots_and_boxes.png" width="229" alt="Dots and Boxes" style="background-color: #000000;"/>
+      <img src="/dots_and_boxes.png" width="229" alt="Dots and Boxes" style="background-color: #000000;"/>
     </a>
     <!-- Dawson's Kayles -->
     <a href="/posts/2026-07-02-mars-symplecticum-chapter-5" class="image-wrapper">
-      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvfh6u4a4NEuMFPjRKP1lgXUjHmtJyxEYmr799Sr2_dBPbJBZA5O6ReLFR8I32CcIXRqkBFnww7h1rgVmGsKWpWLblV3nolFQAMFHfDB1AAZYhG-y1U5zKa453iM6SXT-ezUOpKtfvMmFgudNM8PI92vwMY8k5G83pckQMPbVTebNmytgqK8bSS-sAymU/s320/dawsons_kayles.png" width="312" alt="Dawson's Kayles" style="background-color: #000000;"/>
+      <img src="/dawsons_kayles.png" width="312" alt="Dawson's Kayles" style="background-color: #000000;"/>
     </a>
     <!-- Hackenbush -->
     <a href="/posts/2026-07-02-mars-symplecticum-chapter-6" class="image-wrapper">
