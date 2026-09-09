@@ -201,3 +201,37 @@ Billy contributed to the project <a href="https://www.amazon.com/Notes-China-Jer
 </div>
 
 </div> <!-- Master Container Ends Here -->
+<footer style="margin-top: 4rem; padding: 2rem 0; text-align: center; border-top: 1px solid #cbd5e1; background-color: transparent;">
+  
+  <div style="color: #64748b; font-size: 0.9rem; font-family: system-ui, -apple-system, sans-serif;">
+    <span>Copyright &#169; 2026</span>
+    <span style="margin: 0 0.5rem;">|</span>
+    <span>All rights reserved.</span>
+  </div>
+  
+  <!-- Social Icons -->
+  <div style="margin-top: 1rem; display: flex; justify-content: center; gap: 1.5rem;">
+    <!-- GitHub Icon -->
+    <a href="https://github.com/jerodmichel" target="_blank" style="color: #475569; transition: color 0.2s;" aria-label="GitHub">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.02c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A4.8 4.8 0 0 0 9 18v4"/>
+        <path d="M9 18c-4.51 2-5-2-7-2"/>
+      </svg>
+    </a>
+    <!-- LinkedIn Icon -->
+    <a href="https://www.linkedin.com/in/jerod-michel-26399933/" target="_blank" style="color: #475569; transition: color 0.2s;" aria-label="LinkedIn">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+        <rect width="4" height="12" x="2" y="9"/>
+        <circle cx="4" cy="4" r="2"/>
+      </svg>
+    </a>
+    <!-- Email Icon -->
+    <a href="/contact" style="color: #475569; transition: color 0.2s;" aria-label="Contact">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="4" width="20" height="16" rx="2"/>
+        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+      </svg>
+    </a>
+  </div>
+</footer>

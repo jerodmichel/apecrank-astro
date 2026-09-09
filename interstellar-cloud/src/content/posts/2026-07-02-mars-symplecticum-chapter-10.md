@@ -1,5 +1,5 @@
 ---
-title: "Hex: Scourge of Copenhagen"
+title: "HEX: Scourge of Copenhagen"
 pubDatetime: 2026-08-22T00:00:00Z
 description: "An exploration of the game of Hex, topological proofs, virtual connections, and a complete implementation in bash and lisp."
 author: "Jerod Michel, Gao Yucheng"
