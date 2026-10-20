@@ -2,11 +2,11 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://astro-paper.pages.dev/",
+    url: "https://www.apecrank.net/",
     title: "Åpecranꓘ: The Tenebric Symplecticum",
-    description: "A minimal, responsive and SEO-friendly Astro blog theme.",
-    author: "Sat Naing",
-    profile: "https://satna.ing",
+    description: "Åpecranꓘ: writing, research, games and code by Jerod Michel.",
+    author: "Jerod Michel",
+    profile: "https://www.apecrank.net/about",
     ogImage: "default-og.jpg",
     lang: "en",
     timezone: "Asia/Bangkok",
