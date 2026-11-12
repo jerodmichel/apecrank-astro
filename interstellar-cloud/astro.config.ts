@@ -28,7 +28,8 @@ export default defineConfig({
     mdx(),
     sitemap({
       filter: page =>
-        config.features?.showArchives !== false || !page.endsWith("/archives/"),
+        !page.includes("/tags/") &&
+        (config.features?.showArchives !== false || !page.endsWith("/archives/")),
     }),
   ],
   vite: {
